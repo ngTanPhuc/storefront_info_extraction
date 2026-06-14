@@ -1,0 +1,5 @@
+output/.paddx_cache/
+output/.tmp
+
+.idea
+__pycache__/*

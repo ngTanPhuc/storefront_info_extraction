@@ -1,0 +1,8 @@
+paddleocr>=3.0.0
+paddlepaddle>=3.0.0
+ollama>=0.3.0
+duckduckgo-search>=6.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+pydantic>=2.0.0
+pillow-heif>=0.18.0
