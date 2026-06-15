@@ -1,0 +1,51 @@
+{
+  "processing_status": "success",
+  "created_at": "2026-06-14T14:00:07.831773+00:00",
+  "image_name": "hình 3201.jpg",
+  "source_image": "data/hình 3201.jpg",
+  "ocr_text": "SIE\nCHUYÊN: CUNG CÃP CÁC THIÊT BI V SINH\nBÀN CÃU - LAVABO - CÁC PHU KIÊN PHÒNG TĂM\nDT:0909.869.155\nDC:509\nKHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC\n17im",
+  "extracted_fields": {
+    "shop_name": null,
+    "address": "509 KHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC",
+    "phone_number": "0909.869.1:55",
+    "website_links": [],
+    "open_hours": "17im"
+  },
+  "search_queries": [
+    "509 KHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "final_result": {
+    "source_image": "data/hình 3201.jpg",
+    "shop_name": null,
+    "address": "509 KHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC",
+    "phone_number": "0909.869.1:55",
+    "website_links": [],
+    "open_hours": "17im",
+    "ocr_text": "SIE\nCHUYÊN: CUNG CÃP CÁC THIÊT BI V SINH\nBÀN CÃU - LAVABO - CÁC PHU KIÊN PHÒNG TĂM\nDT:0909.869.155\nDC:509\nKHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC\n17im",
+    "search_results": [],
+    "search_queries": [
+      "509 KHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC"
+    ],
+    "enrichment_results": {
+      "missing_fields": [
+        "website_links"
+      ],
+      "status": "skipped_no_search_results"
+    }
+  },
+  "export_row": {
+    "image_name": "hình 3201.jpg",
+    "shop_name": null,
+    "address": "509 KHA VAN CÂN, P. LINH DÔNG , Q. THÙ DÚC",
+    "phone_number": "0909.869.1:55",
+    "website_links": "",
+    "open_hours": "17im"
+  }
+}

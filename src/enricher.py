@@ -28,8 +28,13 @@ class ShopInfoEnricher:
         )
         results = self.searcher.search(shop_info.shop_name, shop_info.address)
         shop_info.search_results = results
+        shop_info.search_queries = list(self.searcher.last_queries)
         if not results:
-            return shop_info
+            shop_info.enrichment_results = {
+                "missing_fields": missing_fields,
+                "status": "skipped_no_search_results",
+            }
+            return ShopInfo(**shop_info.model_dump())
 
         extracted = self.extractor.extract_missing_from_search(
             shop_info=shop_info,
@@ -37,6 +42,11 @@ class ShopInfoEnricher:
             missing_fields=missing_fields,
         )
         _merge_missing_fields(shop_info, extracted, missing_fields)
+        shop_info.enrichment_results = {
+            "missing_fields": missing_fields,
+            "extracted": extracted,
+            "status": "completed",
+        }
         return ShopInfo(**shop_info.model_dump())
 
 

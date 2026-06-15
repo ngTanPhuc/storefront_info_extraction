@@ -1,0 +1,53 @@
+{
+  "processing_status": "success",
+  "created_at": "2026-06-14T14:03:34.949554+00:00",
+  "image_name": "hình 3203.jpg",
+  "source_image": "data/hình 3203.jpg",
+  "ocr_text": "Phat\nA\nDa\nA\nXin\nVUA HOA KIÉNG VÀ CÂY TRONG\nThriòng\nDà\nTAN\nDAT\nNim\nPhat\n499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM\n0283.897.1453-0967.256.353(ChiTrinh)\nDAT S\nTOC\nH\nK\nTANOAT\nCHUMEN",
+  "extracted_fields": {
+    "shop_name": "VUA HOA KIÉNG VÀ CÂY TRONG",
+    "address": "499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM",
+    "phone_number": "0283.897.1453-0967.256.353(ChiTrinh)",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "VUA HOA KIÉNG VÀ CÂY TRONG 499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "final_result": {
+    "source_image": "data/hình 3203.jpg",
+    "shop_name": "VUA HOA KIÉNG VÀ CÂY TRONG",
+    "address": "499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM",
+    "phone_number": "0283.897.1453-0967.256.353(ChiTrinh)",
+    "website_links": [],
+    "open_hours": null,
+    "ocr_text": "Phat\nA\nDa\nA\nXin\nVUA HOA KIÉNG VÀ CÂY TRONG\nThriòng\nDà\nTAN\nDAT\nNim\nPhat\n499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM\n0283.897.1453-0967.256.353(ChiTrinh)\nDAT S\nTOC\nH\nK\nTANOAT\nCHUMEN",
+    "search_results": [],
+    "search_queries": [
+      "VUA HOA KIÉNG VÀ CÂY TRONG 499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM"
+    ],
+    "enrichment_results": {
+      "missing_fields": [
+        "website_links",
+        "open_hours"
+      ],
+      "status": "skipped_no_search_results"
+    }
+  },
+  "export_row": {
+    "image_name": "hình 3203.jpg",
+    "shop_name": "VUA HOA KIÉNG VÀ CÂY TRONG",
+    "address": "499 KHA VAN CÂN -KP.23-P. THÙ DÚC-TP.HCM",
+    "phone_number": "0283.897.1453-0967.256.353(ChiTrinh)",
+    "website_links": "",
+    "open_hours": null
+  }
+}

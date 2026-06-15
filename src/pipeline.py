@@ -2,16 +2,24 @@ from __future__ import annotations
 
 import logging
 import os
+from dataclasses import dataclass
 from pathlib import Path
 
 from .enricher import ShopInfoEnricher
-from .exporter import export_to_excel
-from .extractor import OllamaExtractor
-from .models import ShopInfo
+from .exporter import convert_csv_to_excel
+from .extractor import OllamaExtractor, INFO_FIELDS
 from .ocr import OCRReader, list_images
+from .persistence import PersistenceManager
 from .search import DuckDuckGoSearcher
 
 logger = logging.getLogger(__name__)
+
+
+@dataclass(frozen=True)
+class PipelineSummary:
+    processed: int
+    skipped: int
+    failed: int
 
 
 def configure_logging() -> None:
@@ -26,10 +34,15 @@ def configure_logging() -> None:
 def run_pipeline(
     data_dir: Path = Path("data"),
     output_path: Path = Path("output/results.xlsx"),
-) -> list[ShopInfo]:
+    force: bool = False,
+) -> PipelineSummary:
     configure_logging()
 
-    _configure_runtime_paths(output_path.parent)
+    output_dir = output_path.parent
+    json_dir = output_dir / "json"
+    csv_path = output_path.with_suffix(".csv")
+
+    _configure_runtime_paths(output_dir)
 
     model = os.getenv("OLLAMA_MODEL", "qwen3:4b")
     ocr_lang = os.getenv("OCR_LANG", "vi")
@@ -37,32 +50,84 @@ def run_pipeline(
 
     logger.info("Starting storefront extraction pipeline.")
     logger.info("Data directory: %s", data_dir)
-    logger.info("Output path: %s", output_path)
+    logger.info("Excel output path: %s", output_path)
+    logger.info("JSON output directory: %s", json_dir)
+    logger.info("CSV output path: %s", csv_path)
+    logger.info("Force reprocess: %s", force)
 
     images = list_images(data_dir)
     logger.info("Found %d image(s).", len(images))
+
+    persistence = PersistenceManager(json_dir=json_dir, csv_path=csv_path)
+    persistence.ensure_directories()
+    persistence.rebuild_csv_from_json()
 
     ocr_reader = OCRReader(lang=ocr_lang)
     extractor = OllamaExtractor(model=model)
     searcher = DuckDuckGoSearcher(max_results=max_search_results)
     enricher = ShopInfoEnricher(searcher=searcher, extractor=extractor)
 
-    records: list[ShopInfo] = []
+    processed_count = 0
+    skipped_count = 0
+    failed_count = 0
+
     for image_path in images:
+        json_path = persistence.json_path_for_image(image_path)
+        if json_path.exists() and not force:
+            logger.info("Skipping %s because %s already exists.", image_path, json_path)
+            skipped_count += 1
+            continue
+
+        stage = "startup"
+        ocr_text = ""
         try:
             logger.info("Processing %s", image_path)
+
+            stage = "ocr"
             ocr_text = ocr_reader.extract_text(image_path)
+
+            stage = "extract"
             shop_info = extractor.extract_from_ocr(
                 ocr_text=ocr_text,
                 source_image=str(image_path),
             )
-            records.append(enricher.enrich_if_needed(shop_info))
-        except Exception:
-            logger.exception("Failed to process %s", image_path)
+            extracted_fields = {
+                field: getattr(shop_info, field) for field in INFO_FIELDS
+            }
 
-    export_to_excel(records, output_path)
-    logger.info("Pipeline complete.")
-    return records
+            stage = "enrich"
+            enriched_info = enricher.enrich_if_needed(shop_info)
+
+            persistence.save_success(
+                image_path=image_path,
+                ocr_text=ocr_text,
+                extracted_fields=extracted_fields,
+                shop_info=enriched_info,
+                search_queries=enriched_info.search_queries,
+                enrichment_results=enriched_info.enrichment_results,
+            )
+            persistence.append_row(enriched_info)
+            processed_count += 1
+        except Exception as error:
+            failed_count += 1
+            logger.exception("Failed to process %s during %s.", image_path, stage)
+            persistence.save_error(
+                image_path=image_path,
+                stage=stage,
+                error=error,
+                ocr_text=ocr_text,
+            )
+
+    persistence.rebuild_csv_from_json()
+    convert_csv_to_excel(csv_path=csv_path, output_path=output_path)
+
+    summary = PipelineSummary(
+        processed=processed_count,
+        skipped=skipped_count,
+        failed=failed_count,
+    )
+    logger.info("Pipeline complete: %s", summary)
+    return summary
 
 
 def _configure_runtime_paths(output_dir: Path) -> None:

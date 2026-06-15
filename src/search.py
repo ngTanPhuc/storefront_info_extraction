@@ -12,6 +12,7 @@ logger = logging.getLogger(__name__)
 class DuckDuckGoSearcher:
     def __init__(self, max_results: int = 5) -> None:
         self.max_results = max_results
+        self.last_queries: list[str] = []
 
     def search(self, shop_name: str | None, address: str | None) -> list[SearchResult]:
         query = " ".join(part for part in [shop_name, address] if part).strip()
@@ -19,6 +20,7 @@ class DuckDuckGoSearcher:
             logger.warning("Skipping search because shop_name and address are missing.")
             return []
 
+        self.last_queries = [query]
         logger.info("Searching DuckDuckGo for: %s", query)
         results: list[SearchResult] = []
         try:

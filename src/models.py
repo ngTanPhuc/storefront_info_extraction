@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
 from pydantic import BaseModel, Field, field_validator
@@ -20,6 +21,8 @@ class ShopInfo(BaseModel):
     open_hours: str | None = None
     ocr_text: str = ""
     search_results: list[SearchResult] = Field(default_factory=list)
+    search_queries: list[str] = Field(default_factory=list)
+    enrichment_results: dict[str, Any] = Field(default_factory=dict)
 
     @field_validator("shop_name", "address", "phone_number", "open_hours", mode="before")
     @classmethod
@@ -60,17 +63,21 @@ class ShopInfo(BaseModel):
             missing.append("open_hours")
         return missing
 
+    def business_fields(self) -> dict[str, Any]:
+        return {
+            "shop_name": self.shop_name,
+            "address": self.address,
+            "phone_number": self.phone_number,
+            "website_links": self.website_links,
+            "open_hours": self.open_hours,
+        }
+
     def to_export_row(self) -> dict[str, Any]:
         return {
-            "source_image": self.source_image,
+            "image_name": Path(self.source_image).name,
             "shop_name": self.shop_name,
             "address": self.address,
             "phone_number": self.phone_number,
             "website_links": ", ".join(self.website_links),
             "open_hours": self.open_hours,
-            "ocr_text": self.ocr_text,
-            "search_results": "\n".join(
-                f"{result.title} | {result.url} | {result.snippet}"
-                for result in self.search_results
-            ),
         }
