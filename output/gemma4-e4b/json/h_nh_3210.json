@@ -1,0 +1,38 @@
+{
+  "image_name": "hình 3210.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"CÔNG TY TNHH MỘT THÀNH VIÊN - TM - DV - CƠ KHÍ XÂY DỰNG\",\n  \"address\": \"DC: 471 Kha Văn Cống, P. Linh Động, TP. Thủ Đức\",\n  \"phone_number\": [\n    \"0929 39 68 66\",\n    \"0913 733 671\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "CÔNG TY TNHH MỘT THÀNH VIÊN - TM - DV - CƠ KHÍ XÂY DỰNG",
+    "address": "DC: 471 Kha Văn Cống, P. Linh Động, TP. Thủ Đức",
+    "phone_number": "['0929 39 68 66', '0913 733 671']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "CÔNG TY TNHH MỘT THÀNH VIÊN - TM - DV - CƠ KHÍ XÂY DỰNG",
+    "address": "DC: 471 Kha Văn Cống, P. Linh Động, TP. Thủ Đức",
+    "phone_number": "['0929 39 68 66', '0913 733 671']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "CÔNG TY TNHH MỘT THÀNH VIÊN - TM - DV - CƠ KHÍ XÂY DỰNG DC: 471 Kha Văn Cống, P. Linh Động, TP. Thủ Đức"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3210.jpg",
+    "shop_name": "CÔNG TY TNHH MỘT THÀNH VIÊN - TM - DV - CƠ KHÍ XÂY DỰNG",
+    "address": "DC: 471 Kha Văn Cống, P. Linh Động, TP. Thủ Đức",
+    "phone_number": "['0929 39 68 66', '0913 733 671']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

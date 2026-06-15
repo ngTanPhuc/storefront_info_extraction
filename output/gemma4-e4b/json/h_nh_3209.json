@@ -1,0 +1,38 @@
+{
+  "image_name": "hình 3209.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"DUY NHẤT\",\n  \"address\": \"471 Kha Van Cân, P. Linh Đông, TP. Thủ Đức.\",\n  \"phone_number\": [\n    \"0908 607 601\",\n    \"0984 283 014\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "DUY NHẤT",
+    "address": "471 Kha Van Cân, P. Linh Đông, TP. Thủ Đức.",
+    "phone_number": "['0908 607 601', '0984 283 014']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "DUY NHẤT",
+    "address": "471 Kha Van Cân, P. Linh Đông, TP. Thủ Đức.",
+    "phone_number": "['0908 607 601', '0984 283 014']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "DUY NHẤT 471 Kha Van Cân, P. Linh Đông, TP. Thủ Đức."
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3209.jpg",
+    "shop_name": "DUY NHẤT",
+    "address": "471 Kha Van Cân, P. Linh Đông, TP. Thủ Đức.",
+    "phone_number": "['0908 607 601', '0984 283 014']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

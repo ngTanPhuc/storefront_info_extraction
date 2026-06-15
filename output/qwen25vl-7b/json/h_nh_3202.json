@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3202.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"HOÀNG ANH\",\n  \"address\": \"55C KM 49 CẦU GIẤP PHONG ĐỒNG, THỦ DẦU MỘT\",\n  \"phone_number\": [\"0223 3967421\", \"0913745004\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "HOÀNG ANH",
+    "address": "55C KM 49 CẦU GIẤP PHONG ĐỒNG, THỦ DẦU MỘT",
+    "phone_number": "['0223 3967421', '0913745004']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "HOÀNG ANH",
+    "address": "55C KM 49 CẦU GIẤP PHONG ĐỒNG, THỦ DẦU MỘT",
+    "phone_number": "['0223 3967421', '0913745004']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "HOÀNG ANH 55C KM 49 CẦU GIẤP PHONG ĐỒNG, THỦ DẦU MỘT"
+  ],
+  "search_results": [
+    {
+      "title": "Test-Guyton-d�ịch - Anh Nguyễn Minh - FlipHTML5",
+      "url": "https://fliphtml5.com/qufoh/erxk/Test-Guyton-dịch/",
+      "snippet": "Một cầu thủ bóng đá 17 tuổi bị gãy xương chày trái. Sau khi được nẹp cẳng ... phóng từ tiểu cầu bên trong cục máu đông. Những xét nghiệm đông máu khác ..."
+    },
+    {
+      "title": "Identity and Religion among the Contemporary Cham Ahiér in Vietnam",
+      "url": "https://spectrum.library.concordia.ca/id/eprint/992023/1/Mai_PhD_S2023.pdf",
+      "snippet": "Một số vấn đề cơ bản về Tôn Giáo, Tín Ngưỡng của đồng boà Chăm ở hai tỉnh Bình Thuận, Ninh Thuận hiện nay. [Several aspects of religious beliefs of Cham ..."
+    },
+    {
+      "title": "NEW TOURISM: LOCAL TO GLOBAL INITIATIVES - CSDL Khoa học",
+      "url": "https://csdlkhoahoc.hueuni.edu.vn/data/2020/7/KY_YEU_HOI_THAO_2018.pdf",
+      "snippet": "tạo thêm công ăn việc làm, tạo thu nhập cho cộng đồng; và yêu cầu giám sát thông ... Address: Floor 6, Anh Minh Building, 36 Hoang Cau Street, O Cho Dua Ward,."
+    },
+    {
+      "title": "CHUYÊN ĐỀ NGỮ PHÁP - Lí Thuyết | PDF - Scribd",
+      "url": "https://www.scribd.com/document/586829887/CHUYE-N-ĐE-NGU-PHA-P-li-thuye-t",
+      "snippet": "Ví dụ: The sun ries in the East. Tom comes from England. Thì hiện tại đơn diễn tả 1 thói quen, một hành động xảy ra thường xuyên ở hiện tại. Ví dụ: Mary often ..."
+    },
+    {
+      "title": "Ifin dirfrng di Midway vdi M Irirong «M? sitigp tgc Id inpt ngudn gdc ...",
+      "url": "http://ndclnh-mytho-usa.org/KhoSachCu/Nhat+Bao+Chinh+Luan/ChinhLuan_1570+06JUN1969.pdf",
+      "snippet": "Hitng yube này nul Nd 14 mdt siy cung cau nitog phông. Cir thang Uiau ... - MỘT THUANC BitM TRUYỀN HÌNH LỄ TLIENC. SANYO > 23 i<, M»bl. 20 ia. Mooblo. I ..."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3202.jpg",
+    "shop_name": "HOÀNG ANH",
+    "address": "55C KM 49 CẦU GIẤP PHONG ĐỒNG, THỦ DẦU MỘT",
+    "phone_number": "['0223 3967421', '0913745004']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

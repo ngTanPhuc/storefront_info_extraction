@@ -1,0 +1,38 @@
+{
+  "image_name": "hình 3205.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"CƠ SỞ GỒ HÀN TUÂN SON 1\",\n  \"address\": \"487 KHA VĂN CẤP, P. THỦ ĐỨC, TP. HỒ CHÍ MINH\",\n  \"phone_number\": [\n    \"0903.630.662\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "CƠ SỞ GỒ HÀN TUÂN SON 1",
+    "address": "487 KHA VĂN CẤP, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "CƠ SỞ GỒ HÀN TUÂN SON 1",
+    "address": "487 KHA VĂN CẤP, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "CƠ SỞ GỒ HÀN TUÂN SON 1 487 KHA VĂN CẤP, P. THỦ ĐỨC, TP. HỒ CHÍ MINH"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3205.jpg",
+    "shop_name": "CƠ SỞ GỒ HÀN TUÂN SON 1",
+    "address": "487 KHA VĂN CẤP, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

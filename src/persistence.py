@@ -14,14 +14,6 @@ from .models import ShopInfo
 
 logger = logging.getLogger(__name__)
 
-BUSINESS_FIELDS = (
-    "shop_name",
-    "address",
-    "phone_number",
-    "website_links",
-    "open_hours",
-)
-
 
 class PersistenceManager:
     def __init__(self, json_dir: Path, csv_path: Path) -> None:
@@ -41,25 +33,24 @@ class PersistenceManager:
     def save_success(
         self,
         image_path: Path,
-        ocr_text: str,
-        extracted_fields: dict[str, Any],
+        model: str,
+        raw_response: str,
+        parsed_result: dict[str, Any],
         shop_info: ShopInfo,
         search_queries: list[str],
         enrichment_results: dict[str, Any],
     ) -> Path:
         payload = {
-            "processing_status": "success",
-            "created_at": _utc_now(),
             "image_name": image_path.name,
-            "source_image": str(image_path),
-            "ocr_text": ocr_text,
-            "extracted_fields": extracted_fields,
+            "model": model,
+            "raw_response": raw_response,
+            "parsed_result": parsed_result,
+            "final_result": shop_info.business_fields(),
             "search_queries": search_queries,
             "search_results": [
                 result.model_dump() for result in shop_info.search_results
             ],
             "enrichment_results": enrichment_results,
-            "final_result": shop_info.model_dump(),
             "export_row": shop_info_to_export_row(shop_info),
         }
         path = self.json_path_for_image(image_path)
@@ -67,20 +58,13 @@ class PersistenceManager:
         logger.info("Saved debug result for %s to %s", image_path, path)
         return path
 
-    def save_error(
-        self,
-        image_path: Path,
-        stage: str,
-        error: Exception,
-        ocr_text: str | None = None,
-    ) -> Path:
+    def save_error(self, image_path: Path, stage: str, error: Exception) -> Path:
         payload = {
             "processing_status": "failed",
             "created_at": _utc_now(),
             "image_name": image_path.name,
             "source_image": str(image_path),
             "failed_stage": stage,
-            "ocr_text": ocr_text or "",
             "error_type": error.__class__.__name__,
             "error_message": str(error),
             "traceback": traceback.format_exc(),
@@ -115,7 +99,7 @@ def _load_export_row(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as json_file:
         payload = json.load(json_file)
 
-    if payload.get("processing_status") != "success":
+    if payload.get("processing_status") == "failed":
         return {
             "image_name": payload.get("image_name", path.stem),
             "shop_name": None,
@@ -127,7 +111,7 @@ def _load_export_row(path: Path) -> dict[str, Any]:
 
     final_result = payload.get("final_result", {})
     return {
-        "image_name": payload.get("image_name") or final_result.get("source_image"),
+        "image_name": payload.get("image_name", final_result.get("image_name")),
         "shop_name": final_result.get("shop_name"),
         "address": final_result.get("address"),
         "phone_number": final_result.get("phone_number"),

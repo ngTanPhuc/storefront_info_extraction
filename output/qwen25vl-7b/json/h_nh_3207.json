@@ -1,0 +1,72 @@
+{
+  "image_name": "hình 3207.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"ĐẠI PHÁT\",\n  \"address\": \"477 KHA VẠN CẦN, P. LINH ĐÔNG, Q. THỦ DỨC\",\n  \"phone_number\": [\"02837201390\", \"098626216\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "ĐẠI PHÁT",
+    "address": "477 KHA VẠN CẦN, P. LINH ĐÔNG, Q. THỦ DỨC",
+    "phone_number": "['02837201390', '098626216']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "ĐẠI PHÁT",
+    "address": "477 KHA VẠN CẦN, P. LINH ĐÔNG, Q. THỦ DỨC",
+    "phone_number": "['02837201390', '098626216']",
+    "website_links": [
+      "https://www.thegioididong.com/sieu-thi-628-628a-kha-van-can-khu-pho-8-p-linh-dong-q-thu-duc-tp-ho-chi-minh-id-1211"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "ĐẠI PHÁT 477 KHA VẠN CẦN, P. LINH ĐÔNG, Q. THỦ DỨC"
+  ],
+  "search_results": [
+    {
+      "title": "CHƯƠNG 477 – THÍCH KHÁCH - Ya Shall - WordPress.com",
+      "url": "https://yashall.wordpress.com/2022/06/19/chuong-477-thich-khach/",
+      "snippet": "June 19, 2022 - CHƯƠNG 477 – THÍCH KHÁCH Tiểu Tứ Tử lời nói ra kinh người, nói Bàng Dục nhặt được người rơm. Cho đến bây giờ, người dính líu quan hệ cùng người rơm đều chết hết, mà thân phận của ..."
+    },
+    {
+      "title": "Đại Phụng Đả Canh Nhân : Chương 477: Dò hỏi (2) - Truyenfull.vn",
+      "url": "https://truyenfull.bio/dai-phung-da-canh-nhan/chuong-477/",
+      "snippet": "Nếu muốn tiến thêm một bước, cũng chỉ có song tu với quốc sư, cướp lấy linh uẩn của nàng, như thế mới có thể vạn tuế vạn tuế vạn vạn tuế, trở thành hoàng đế vĩnh viễn của Đại Phụng. Rời khỏi tẩm cung, đi lên xe kéo rồng, Nguyên Cảnh đế một đường thúc giục, không bao lâu đã đến Linh Bảo quan. Mà khi hắn nhìn thấy nữ tử quốc sư, thất vọng phát hiện, nàng thật sự chỉ là mời mình tới ngồi thiền thổ nạp, như bài tập ngày xưa."
+    },
+    {
+      "title": "Chiến thuật vận động tiến công trong trận Cốc Xá - điểm cao 477",
+      "url": "https://www.qdnd.vn/quoc-phong-an-ninh/nghe-thuat-quan-su-vn/chien-thuat-van-dong-tien-cong-trong-tran-coc-xa-diem-cao-477-1017920",
+      "snippet": "December 20, 2025 - Thắng lợi của bộ đội chủ lực ta tiêu diệt viện binh và lực lượng quân Pháp ở Cốc Xá-điểm cao 477 trong Chiến dịch Biên giới (từ ngày 16-9 đến 14-10-1950)"
+    },
+    {
+      "title": "628-628A Kha Vạn Cân, Khu phố 8, P. Linh Đông, Q. Thủ Đức, TP. Hồ Chí Minh",
+      "url": "https://www.thegioididong.com/sieu-thi-628-628a-kha-van-can-khu-pho-8-p-linh-dong-q-thu-duc-tp-ho-chi-minh-id-1211",
+      "snippet": "Thời gian làm việc, địa chỉ siêu thị 628-628A Kha Vạn Cân, Khu phố 8, P. Linh Đông, Q. Thủ Đức, TP. Hồ Chí Minh. Xem ngay"
+    },
+    {
+      "title": "Top 5+ quán bờ sông Thủ Đức ngon, thoáng mát – Ưu đãi PasGo",
+      "url": "https://pasgo.vn/kham-pha/top-5-nha-hang-quan-an-ben-song-thoang-mat-o-thu-duc-586",
+      "snippet": "Tầng 3 TTTM Giga Mall, 240–242 Kha Vạn Cân, P. Hiệp Bình Chánh, Q."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://www.thegioididong.com/sieu-thi-628-628a-kha-van-can-khu-pho-8-p-linh-dong-q-thu-duc-tp-ho-chi-minh-id-1211"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3207.jpg",
+    "shop_name": "ĐẠI PHÁT",
+    "address": "477 KHA VẠN CẦN, P. LINH ĐÔNG, Q. THỦ DỨC",
+    "phone_number": "['02837201390', '098626216']",
+    "website_links": "https://www.thegioididong.com/sieu-thi-628-628a-kha-van-can-khu-pho-8-p-linh-dong-q-thu-duc-tp-ho-chi-minh-id-1211",
+    "open_hours": null
+  }
+}

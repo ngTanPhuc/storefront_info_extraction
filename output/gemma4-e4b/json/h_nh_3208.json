@@ -1,0 +1,38 @@
+{
+  "image_name": "hình 3208.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"Phụ Kiện - Loa Mic Karaoke\",\n  \"address\": \"CHI NHÁNH 22 - ĐC: SỐ 471 Đ. KHA VĂN CẢ, P. LINH ĐỘNG, TP. THỦ ĐỨC, HCM\",\n  \"phone_number\": [\n    \"0962.62.62\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "Phụ Kiện - Loa Mic Karaoke",
+    "address": "CHI NHÁNH 22 - ĐC: SỐ 471 Đ. KHA VĂN CẢ, P. LINH ĐỘNG, TP. THỦ ĐỨC, HCM",
+    "phone_number": "['0962.62.62']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "Phụ Kiện - Loa Mic Karaoke",
+    "address": "CHI NHÁNH 22 - ĐC: SỐ 471 Đ. KHA VĂN CẢ, P. LINH ĐỘNG, TP. THỦ ĐỨC, HCM",
+    "phone_number": "['0962.62.62']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "Phụ Kiện - Loa Mic Karaoke CHI NHÁNH 22 - ĐC: SỐ 471 Đ. KHA VĂN CẢ, P. LINH ĐỘNG, TP. THỦ ĐỨC, HCM"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3208.jpg",
+    "shop_name": "Phụ Kiện - Loa Mic Karaoke",
+    "address": "CHI NHÁNH 22 - ĐC: SỐ 471 Đ. KHA VĂN CẢ, P. LINH ĐỘNG, TP. THỦ ĐỨC, HCM",
+    "phone_number": "['0962.62.62']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

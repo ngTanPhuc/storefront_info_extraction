@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import logging
 
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 
 from .models import SearchResult
 

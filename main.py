@@ -19,7 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output-path",
         type=Path,
-        default=Path("output/results.xlsx"),
+        default=Path("output/qwen25vl-7b/results.xlsx"),
         help="Final Excel output path.",
     )
     parser.add_argument(

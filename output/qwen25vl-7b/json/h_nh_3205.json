@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3205.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"CƠ SỞ GÒ HÀN TUẤN SƠN 1\",\n  \"address\": \"487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH\",\n  \"phone_number\": [\"0903.630.662\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "CƠ SỞ GÒ HÀN TUẤN SƠN 1",
+    "address": "487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "CƠ SỞ GÒ HÀN TUẤN SƠN 1",
+    "address": "487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "CƠ SỞ GÒ HÀN TUẤN SƠN 1 487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH"
+  ],
+  "search_results": [
+    {
+      "title": "Thủ Đức (thành phố) - Wikipedia tiếng Việt",
+      "url": "https://vi.wikipedia.org/wiki/Thủ_Đức_(thành_phố)",
+      "snippet": "Thủ Đức là một thành phố cũ thuộc Thành phố Hồ Chí Minh, Việt Nam. Tiền thân của thành phố Thủ Đức là huyện Thủ Đức cũ trước khi bị chia tách thành ba quận cũ là Quận 2, Quận 9 và quận Thủ Đức vào năm 1997."
+    },
+    {
+      "title": "Địa chỉ hệ thống cửa hàng điện thoại CellphoneS gần đây",
+      "url": "https://cellphones.com.vn/dia-chi-cua-hang",
+      "snippet": "CellphoneS là hệ thống bán lẻ chính hãng các sản phẩm Apple, Samsung, Xiaomi, OPPO , ASUS, Sony, Lenovo, JBL,… phủ rộng khắp toàn quốc, đa dạng các thiết bị Điện thoại - Máy tính - Phụ kiện - Gia dụng - TV có giá bán tốt nhất và luôn có quầy trải nghiệm dùng thử."
+    },
+    {
+      "title": "Địa chỉ hệ thống cửa hàng điện thoại Viettel Store gần đây",
+      "url": "https://viettelstore.vn/sieu-thi-gan-nhat.html",
+      "snippet": "Địa chỉ: Số 1, Phố Giang Văn Minh, phường Giảng Võ, Thành phố Hà Nội. Chịu trách nhiệm nội dung: Đinh Sơn Tùng. Viettel Store luôn tôn trọng và cam kết sẽ bảo mật những thông tin, dữ liệu cá nhân của Khách hàng một cách tuyệt đối theo quy định của pháp luật."
+    },
+    {
+      "title": "Hệ Thống Cửa Hàng - Biti's",
+      "url": "https://bitis.com.vn/pages/he-thong-cua-hang",
+      "snippet": "Q&A Thông tin địa chỉ CÔNG TY TNHH SẢN XUẤT HÀNG TIÊU DÙNG BÌNH TIÊN Địa chỉ:22 Lý Chiêu Hoàng, Phường 10, Quận 6, TP. Hồ Chí Minh Điện thoại:(028) 38 753 443 Email:Liên hệ các vấn đề về đơn hàng Online, kênh cửa hàng, đại lý (offline) :chamsockhachhang@bitis.com.vn Hotline:0966158666"
+    },
+    {
+      "title": "Địa chỉ, điện thoại các phường, xã tại Thành phố Hồ Chí Minh sau sáp ...",
+      "url": "https://kavlawyers.com/dia-chi-dien-thoai-cac-phuong-xa-tai-thanh-pho-ho-chi-minh-sau-sap-nhap-01-7-2025/",
+      "snippet": "KAV Lawyers tổng hợp và cung cấp danh sách địa điểm, số điện thoại đường dây nóng của Trung tâm Phục vụ Hành chính công cấp xã trên địa bàn Thành phố Hồ Chí Minh (168 phường, xã và đặc khu tại Tp. Hồ Chí Minh) như sau:"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3205.jpg",
+    "shop_name": "CƠ SỞ GÒ HÀN TUẤN SƠN 1",
+    "address": "487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "image_name": "hình 3200.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"VƯỢNG HẢI SẢN ỨT LINH\",\n  \"address\": \"529 529A KHA VĂN CẬN, P.LINH ĐÔNG, TP.THỦ ĐỨC\",\n  \"phone_number\": [\n    \"091 5767 189\",\n    \"0972 887\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "VƯỢNG HẢI SẢN ỨT LINH",
+    "address": "529 529A KHA VĂN CẬN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 887']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "VƯỢNG HẢI SẢN ỨT LINH",
+    "address": "529 529A KHA VĂN CẬN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 887']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "VƯỢNG HẢI SẢN ỨT LINH 529 529A KHA VĂN CẬN, P.LINH ĐÔNG, TP.THỦ ĐỨC"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3200.jpg",
+    "shop_name": "VƯỢNG HẢI SẢN ỨT LINH",
+    "address": "529 529A KHA VĂN CẬN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 887']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

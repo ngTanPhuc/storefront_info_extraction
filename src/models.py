@@ -19,7 +19,7 @@ class ShopInfo(BaseModel):
     phone_number: str | None = None
     website_links: list[str] = Field(default_factory=list)
     open_hours: str | None = None
-    ocr_text: str = ""
+    raw_response: str = ""
     search_results: list[SearchResult] = Field(default_factory=list)
     search_queries: list[str] = Field(default_factory=list)
     enrichment_results: dict[str, Any] = Field(default_factory=dict)

@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3201.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"SIÊU THỊ\",\n  \"address\": \"509 KHA VẠN CÂN, P. LINH ĐÔNG, Q. THỦ ĐỨC\",\n  \"phone_number\": [\"0909.869.155\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "SIÊU THỊ",
+    "address": "509 KHA VẠN CÂN, P. LINH ĐÔNG, Q. THỦ ĐỨC",
+    "phone_number": "['0909.869.155']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "SIÊU THỊ",
+    "address": "509 KHA VẠN CÂN, P. LINH ĐÔNG, Q. THỦ ĐỨC",
+    "phone_number": "['0909.869.155']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "SIÊU THỊ 509 KHA VẠN CÂN, P. LINH ĐÔNG, Q. THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "ZEN STORE - CN Thủ Đức | Thủ Đức - Facebook",
+      "url": "https://www.facebook.com/p/ZEN-STORE-Góp-Siêu-Dễ-CN-Thủ-Đức-100084607908379/",
+      "snippet": "🔥 𝐒𝐈𝐄𝐔 𝐃𝐄𝐀𝐋 - 𝐌𝐔𝐀 𝐋𝐀 𝐇𝐎𝐈, 𝐁𝐎 𝐋𝐀 𝐓𝐈𝐄𝐂 🔥 𝟏𝟒 Plus chỉ còn 𝟏𝟎.𝟗𝟗𝟎.𝟎𝟎𝟎đ - deal quá hời cho anh em lên đời 📱 ️ Giá tốt top thị trường thời điểm này - Số lượng có hạn! 📦 Máy zin keng - Ngoại hình 98-99% 🔋 Pin ngon - Dùng mượt cả ngày 📸 Camera nét căng - Chụp phát ăn ngay 💯 𝐂𝐚𝐦 𝐤𝐞𝐭 𝐭𝐮 𝐙𝐞𝐧𝐬𝐭𝐨𝐫𝐞: ️ Zin 100% - Like new đẹp ️ Không lock - Không dựng - Không sửa chữa ️ Test máy kỹ tại chỗ - Bao check thoải mái 🎁 𝐌𝐮𝐚 𝐥𝐚 𝐜𝐨 𝐪𝐮𝐚: • Tặng sạc nhanh xịn • Dán kính cường lực full màn • Bao test 30 ngày - Lỗi đổi liền • Bảo hành rõ ràng 6-12 tháng • Trả góp nhẹ nhàng từ 1 triệu 💳 𝐓𝐫𝐚 𝐠𝐨𝐩 𝐝𝐞 𝐝𝐚𝐧𝐠: 👉 Trước chỉ 1tr nhận máy ngay 👉 Duyệt nhanh - Không rườm rà 📍 𝐙𝐞𝐧𝐬𝐭𝐨𝐫𝐞 luôn sẵn máy tại: 🏬 Gò Vấp: 1207 Phan Văn Trị, P.10 🏬 Thủ Đức: 796 Kha Vạn Cân, Linh Đông 📞 086.550.8888 - 0777.9999.08 📲 TikTok: @zenstore796khavancan #14Plus #DealHotMoiNgay #ZenStore #iPhoneGiaTot #LenDoiQuaDe #iPhoneLikeNew #TraGopDeDang"
+    },
+    {
+      "title": "SIÊU THI ĐỒ CŨ HOÀNG LONG THỦ ĐỨC- Hotline ... - Facebook",
+      "url": "https://www.facebook.com/thanhlyquanan/posts/siêu-thi-đồ-cũ-hoàng-long-thủ-đức-hotline-0938446679cửa-hàng-đồ-cũ-hoàng-l/2303455879789327/",
+      "snippet": "Địa chỉ: 730 Kha Vạn Cân - P. Linh Đông - Thủ Đưc Hotline: 0938446679 Siêu thị đồ dùng đã qua sư dụng lơn nhất Sài Gòn Chuyên mua bán toàn bộ đồ dùng qua sử dụng của: Nhà hàng, Công ty, Gia đình, Khách sạn, Làng nướng, Quán ăn, Nhậu, Cơm, Phở, Cafe..."
+    },
+    {
+      "title": "0302309845-064 - Chi Nhánh Công Ty Tnhh Cao Phong Tại Linh Đông - Siêu ...",
+      "url": "https://masothue.com/0302309845-064-chi-nhanh-cong-ty-tnhh-cao-phong-tai-linh-dong-sieu-thi-dien-may-noi-that-cho-lon",
+      "snippet": "CHI NHÁNH CÔNG TY TNHH CAO PHONG TẠI LINH ĐÔNG - SIÊU THỊ ĐIỆN MÁY NỘI THẤT CHỢ LỚN ⭐ tra cứu mã số thuế 0302309845-064 - Số 523B Kha Vạn Cân, Phường Linh Đông, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam"
+    },
+    {
+      "title": "Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh",
+      "url": "https://timkiemduongdi.com/dia-diem/duong-kha-van-can-thu-duc-tp-ho-chi-minh",
+      "snippet": "Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh có vị trí ở đâu, số điện thoại liên hệ và chỉ đường đi đến địa chỉ cũng như các review đánh giá về địa điểm Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh."
+    },
+    {
+      "title": "Đi siêu thị mua… đồ cũ - Tuổi Trẻ Online",
+      "url": "https://cuoituan.tuoitre.vn/di-sieu-thi-mua-do-cu-1149820.htm",
+      "snippet": "Giữa trưa nắng, chị Hồng (ngụ Q.Thủ Đức) cùng em trai dừng xe trước cửa hàng đồ cũ Tiến Dũng trên đường Kha Vạn Cân (P.Linh Đông, Q.Thủ Đức). Tìm một lúc, chị chọn được 20 chiếc đĩa nhựa, 2 hũ đựng tăm và 2 hũ đựng nước mắm với giá 137.000 đồng."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3201.jpg",
+    "shop_name": "SIÊU THỊ",
+    "address": "509 KHA VẠN CÂN, P. LINH ĐÔNG, Q. THỦ ĐỨC",
+    "phone_number": "['0909.869.155']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

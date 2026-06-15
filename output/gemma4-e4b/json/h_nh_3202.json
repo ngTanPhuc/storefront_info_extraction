@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3202.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"HOÀNG ANH\",\n  \"address\": null,\n  \"phone_number\": [],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "HOÀNG ANH",
+    "address": null,
+    "phone_number": "[]",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "HOÀNG ANH",
+    "address": null,
+    "phone_number": "[]",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "HOÀNG ANH"
+  ],
+  "search_results": [
+    {
+      "title": "Hoàng Anh Tuấn",
+      "url": "https://en.wikipedia.org/wiki/Hoàng_Anh_Tuấn",
+      "snippet": ""
+    },
+    {
+      "title": "Hoàng Anh Tuấn - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hoang_Anh_Tuan",
+      "snippet": "For the footballer and football manager, see Hoàng Anh Tuấn (footballer) . ... Dính doping, lực sỹ Hoàng Anh Tuấn bị cấm thi đấu 2 ..."
+    },
+    {
+      "title": "Thư Nguyễn Hoàng Anh | Lowy Institute",
+      "url": "https://www.lowyinstitute.org/people/contributor/bio/thu-nguyen-hoang-anh",
+      "snippet": "Thư Nguyễn Hoàng Anh ... Thư Nguyễn Hoàng Anh is a 2024 Blue Security Fellow."
+    },
+    {
+      "title": "Thư Nguyễn Hoàng Anh | Lowy Institute",
+      "url": "https://www.lowyinstitute.org/the-interpreter/contributors/articles/thu-nguyen-hoang-anh",
+      "snippet": "Thư Nguyễn Hoàng Anh is a 2024 Blue Security Fellow. ... Su Wai Mon, Thư Nguyễn Hoàng Anh, Jonathan Gabriel Mendoza 4 Feb 2025"
+    },
+    {
+      "title": "Lý Công Hoàng Anh Profile | OneFootball",
+      "url": "https://onefootball.com/en/player/ly-cong-hoang-anh-326697",
+      "snippet": "Check out the profile of Lý Công Hoàng Anh, the latest info, and key statistics. ... Lý Công Hoàng Anh Profile | OneFootball ... Lý Công Hoàng Anh"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3202.jpg",
+    "shop_name": "HOÀNG ANH",
+    "address": null,
+    "phone_number": "[]",
+    "website_links": "",
+    "open_hours": null
+  }
+}

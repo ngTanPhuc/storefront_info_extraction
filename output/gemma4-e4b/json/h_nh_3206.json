@@ -1,0 +1,70 @@
+{
+  "image_name": "hình 3206.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"CƠ SỞ ĐIỆN LẠNH HOÀNG ĐẠI\",\n  \"address\": \"479 ĐƯỜNG KHA VĂN CẬN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH\",\n  \"phone_number\": [\n    \"0223.8701\",\n    \"0922.148.333\"\n  ],\n  \"website_links\": [\n    \"hoangdai@gmail.com\"\n  ],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "CƠ SỞ ĐIỆN LẠNH HOÀNG ĐẠI",
+    "address": "479 ĐƯỜNG KHA VĂN CẬN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0223.8701', '0922.148.333']",
+    "website_links": [
+      "hoangdai@gmail.com"
+    ],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "CƠ SỞ ĐIỆN LẠNH HOÀNG ĐẠI",
+    "address": "479 ĐƯỜNG KHA VĂN CẬN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0223.8701', '0922.148.333']",
+    "website_links": [
+      "hoangdai@gmail.com"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "CƠ SỞ ĐIỆN LẠNH HOÀNG ĐẠI 479 ĐƯỜNG KHA VĂN CẬN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH"
+  ],
+  "search_results": [
+    {
+      "title": "Vietnam - Viquipèdia, l'enciclopèdia lliure",
+      "url": "https://ca.wikipedia.org/wiki/Vietnam",
+      "snippet": "En caure la dinastia Quin, però (substituïda per la Han), el general adoptà el nom de Trieu Da i es va proclamar rei de Nam Viet."
+    },
+    {
+      "title": "Politics of Vietnam - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Politics_of_Vietnam",
+      "snippet": "There are other specialised courts in Vietnam, including the Central Military Court, the Criminal Court, the Civil Court and the Appeal Court."
+    },
+    {
+      "title": "Hoang Van: 187 records - Addresses, Phone Numbers, Cars",
+      "url": "https://ufind.name/Hoang+Van",
+      "snippet": "Possible relatives Huang Ngo, Long Nguyen , Long Vannguyen , Hoang Vanngo, Ngo Hoang Van, Kha Do , Ngo Vanhoang, Truong Van , Bao Ngo Associated ..."
+    },
+    {
+      "title": "Urgent Statement on Vietnam’s arrest of Activist Tran Thi Nga",
+      "url": "https://vietnamhumanrightsdefenders.net/2017/01/25/urgent-statement-on-vietnams-arrest-of-activist-tran-thi-nga/",
+      "snippet": "... Vô Thường (Nguyễn Công Đức) 444 chợ ... 69 Facebooker Nguyen Thien Nhan (Nguyễn Thiện Nhân), hội viên Hội Nhà báo Độc lập"
+    },
+    {
+      "title": "Hoang Truong: 202 records - Addresses, Phone Numbers, Cars",
+      "url": "https://ufind.name/Hoang+Truong",
+      "snippet": "... NY 11229 Former addresses: 7812 48th Street Ct, Tacoma, WA 98467 1965 Sherington Pl, Newport Beach, CA 92663 28571 Rancho Maralena Laguna Beach, CA ..."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "open_hours"
+    ],
+    "extracted": {
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3206.jpg",
+    "shop_name": "CƠ SỞ ĐIỆN LẠNH HOÀNG ĐẠI",
+    "address": "479 ĐƯỜNG KHA VĂN CẬN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0223.8701', '0922.148.333']",
+    "website_links": "hoangdai@gmail.com",
+    "open_hours": null
+  }
+}
