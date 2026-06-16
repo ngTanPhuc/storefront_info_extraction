@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3209.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"DUY NHẤT\",\n  \"address\": \"471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức, HCM\",\n  \"phone_number\": [\"0908607601\", \"0984283014\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "DUY NHẤT",
+    "address": "471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức, HCM",
+    "phone_number": "['0908607601', '0984283014']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "DUY NHẤT",
+    "address": "471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức, HCM",
+    "phone_number": "['0908607601', '0984283014']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "DUY NHẤT 471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức, HCM"
+  ],
+  "search_results": [
+    {
+      "title": "Bảng giá đất TP Thủ Đức (cập nhật mới nhất) | Houze Blog",
+      "url": "https://blog.houze.vn/blog/bang-gia-dat-tp-thu-duc-tphcm",
+      "snippet": "Bảng giá đất TP Thủ Đức theo bảng giá đất tại TPHCM có hiệu lực từ ngày 31/10/2024 đến hết ngày 31/12/2025."
+    },
+    {
+      "title": "Mua bán nhà đất Đường Kha Vạn Cân, Thành phố Thủ Đức, bất động sản bán tháng 6/2026",
+      "url": "https://alonhadat.com.vn/nha-dat/can-ban/nha-dat/duong-kha-van-can-thanh-pho-thu-duc-dp2461.html",
+      "snippet": "Siêu Mặt Tiền Kha Vạn Cân, P. Linh Đông Thủ Đức - Diện tích: 11.67 x 38.63m, NH 13.6m - Kết cấu: 5 Tầng - HĐT: 180 triệu/tháng - 4 năm - Vị trí siêu đẹp - gần ngay Đại Lộ Phạm Văn Đồng - Chợ Thủ Đức - Đoạn ki......"
+    },
+    {
+      "title": "Công An Thành phố Thủ Đức: Địa chỉ, số điện thoại liên hệ",
+      "url": "https://nhadathoangviet.com/thong-tin-cong-an-thanh-pho-thu-duc-cap-nhat-chinh-xac-nhat/",
+      "snippet": "April 15, 2025 - Công an Thành Phố Thủ Đức: Thông tin địa chỉ, số điện thoại, thời gian làm việc, chức năng, nhiệm vụ, quyền hạn và các thủ tục hành chính hiện hành"
+    },
+    {
+      "title": "Top 9 Địa chỉ sửa chữa điện thoại uy tín nhất TP. Thủ Đức, TP. HCM - toplist.vn",
+      "url": "https://toplist.vn/top-list/dia-chi-sua-chua-dien-thoai-uy-tin-nhat-quan-thu-duc-tp-hcm-40448.htm",
+      "snippet": "Sài Gòn Số là nơi duy nhất tại TPHCM áp dụng quy trình sửa chữa trực tiếp, giúp quý khách hàng có thể trực tiếp theo dõi toàn bộ quá trình xử lý lỗi, hư hỏng của thiết bị."
+    },
+    {
+      "title": "Mặt tiền kha vạn cân (8×12). Linh đông. Thủ đức - 619398 - Phongtro123.com",
+      "url": "https://phongtro123.com/mat-tien-kha-van-can-8-12-linh-dong-thu-duc-pr619398.html",
+      "snippet": "May 16, 2025 - Cho thuê nhà nguyên căn Mặt tiền Kha Vạn Cân, P Linh Đông, TP Thủ Đức, TPHCM. Cách chợ Thủ Đức 200m, cách Cầu Ngang… - 619398"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3209.jpg",
+    "shop_name": "DUY NHẤT",
+    "address": "471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức, HCM",
+    "phone_number": "['0908607601', '0984283014']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

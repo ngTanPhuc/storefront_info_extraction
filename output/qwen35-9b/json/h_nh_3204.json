@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3204.jpg",
+  "model": "qwen3.5:9b",
+  "raw_response": "{\n  \"shop_name\": \"Showroom Nội Thất Cao Cấp Ánh Tín\",\n  \"address\": \"ĐC: 497 KHA VẠN CÂN-KP5-P.LINH ĐÔNG-T.P.THỦ ĐỨC\",\n  \"phone_number\": [\n    \"0919 160 774\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "Showroom Nội Thất Cao Cấp Ánh Tín",
+    "address": "ĐC: 497 KHA VẠN CÂN-KP5-P.LINH ĐÔNG-T.P.THỦ ĐỨC",
+    "phone_number": "['0919 160 774']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "Showroom Nội Thất Cao Cấp Ánh Tín",
+    "address": "ĐC: 497 KHA VẠN CÂN-KP5-P.LINH ĐÔNG-T.P.THỦ ĐỨC",
+    "phone_number": "['0919 160 774']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "Showroom Nội Thất Cao Cấp Ánh Tín ĐC: 497 KHA VẠN CÂN-KP5-P.LINH ĐÔNG-T.P.THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "Walk - in Closet không gian phản ánh cả con người lẫn cá tính ----------------------------",
+      "url": "https://www.facebook.com/Nhatminh.interior.build/videos/2608345306009095/",
+      "snippet": "Walk - in Closet không gian phản ánh cả con người lẫn cá tính ---------------------------------------- 𝗡𝗵𝗮̣̂𝘁 𝗠𝗶𝗻𝗵 𝗜𝗻𝘁𝗲𝗿𝗶𝗼𝗿 & 𝗕𝘂𝗶𝗹𝗱 - 𝗡𝗶𝗲̂̀𝗺 𝗧𝗶𝗻 𝗖𝗵𝗼 𝗠𝗼̣𝗶 𝗖𝗼̂𝗻𝗴 𝗧𝗿𝗶̀𝗻𝗵 🏠Showroom: 497 Kha Vạn ..."
+    },
+    {
+      "title": "Top 10 Showroom Nội Thất Cao Cấp Tại TPHCM Đáng Trải Nghiệm Nhất 2026",
+      "url": "https://winchair.vn/top-10-showroom-noi-that-cao-cap-tai-tphcm/",
+      "snippet": "Bài viết dưới đây sẽ giúp bạn khám phá Top 10 showroom nội thất cao cấp tại TPHCM, nơi hội tụ những thương hiệu uy tín, thiết kế đẳng cấp và trải nghiệm mua sắm xứng tầm."
+    },
+    {
+      "title": "7 Showroom Nội Thất Cao Cấp HCM Uy Tín, Chuyên Nghiệp",
+      "url": "https://lesuofeiya.vn/tin-tuc/noi-that-cao-cap-hcm/",
+      "snippet": "Tuy nhiên, sự đa dạng của thị trường cũng khiến việc lựa chọn đơn vị phù hợp trở nên không dễ dàng, vì vậy bài viết sẽ giúp bạn tổng hợp các showroom nội thất cao cấp HCM uy tín để tham khảo."
+    },
+    {
+      "title": "KKCONCEPT - Nội Thất Cao Cấp Nhập Khẩu Tại TP.HCM",
+      "url": "https://kkconcept.vn/",
+      "snippet": "KKCONCEPT cung cấp nội thất cao cấp nhập khẩu cho nhà ở, căn hộ, khách sạn và resort. Sản phẩm gồm sofa, bàn ăn, giường, tủ, ghế, bàn trà, kệ tivi cùng giải pháp FF&E theo dự án. Showroom tại TP.HCM, tư vấn và báo giá theo nhu cầu."
+    },
+    {
+      "title": "Morehome chuyên thiết kế và thi công nội thất showroom uy tín",
+      "url": "https://noithatshowroom.com/",
+      "snippet": "Morehome là một trong những đơn vị chuyên thiết kế và thi công nội thất showroom uy tín, chuyên nghiệp. Những công trình được hoàn thiện bởi Morehome luôn được khách hàng đánh giá cao và yêu thích."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": null,
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3204.jpg",
+    "shop_name": "Showroom Nội Thất Cao Cấp Ánh Tín",
+    "address": "ĐC: 497 KHA VẠN CÂN-KP5-P.LINH ĐÔNG-T.P.THỦ ĐỨC",
+    "phone_number": "['0919 160 774']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

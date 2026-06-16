@@ -1,0 +1,39 @@
+{
+  "image_name": "hình 3202.jpg",
+  "model": "qwen3.5:9b",
+  "raw_response": "",
+  "parsed_result": {
+    "shop_name": null,
+    "address": null,
+    "phone_number": null,
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": null,
+    "address": null,
+    "phone_number": null,
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "Vua Hải Sản Út Linh 529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "phone_number",
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3202.jpg",
+    "shop_name": null,
+    "address": null,
+    "phone_number": null,
+    "website_links": "",
+    "open_hours": null
+  }
+}

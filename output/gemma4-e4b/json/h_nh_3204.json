@@ -1,0 +1,38 @@
+{
+  "image_name": "hình 3204.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"ÁNH TÍN\",\n  \"address\": \"ĐT: 0919 160 774\",\n  \"phone_number\": [\n    \"0909.765.966\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "ÁNH TÍN",
+    "address": "ĐT: 0919 160 774",
+    "phone_number": "['0909.765.966']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "ÁNH TÍN",
+    "address": "ĐT: 0919 160 774",
+    "phone_number": "['0909.765.966']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "ÁNH TÍN ĐT: 0919 160 774"
+  ],
+  "search_results": [],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "status": "skipped_no_search_results"
+  },
+  "export_row": {
+    "image_name": "hình 3204.jpg",
+    "shop_name": "ÁNH TÍN",
+    "address": "ĐT: 0919 160 774",
+    "phone_number": "['0909.765.966']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

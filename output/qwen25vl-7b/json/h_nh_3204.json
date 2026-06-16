@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3204.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"ÁNH TÍN\",\n  \"address\": \"497 KHA VẠN CẦN-KP5-P.LINH ĐÔNG-TP.THỦ ĐỨC\",\n  \"phone_number\": [\"0909.160.774\", \"0909.765.966\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "ÁNH TÍN",
+    "address": "497 KHA VẠN CẦN-KP5-P.LINH ĐÔNG-TP.THỦ ĐỨC",
+    "phone_number": "['0909.160.774', '0909.765.966']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "ÁNH TÍN",
+    "address": "497 KHA VẠN CẦN-KP5-P.LINH ĐÔNG-TP.THỦ ĐỨC",
+    "phone_number": "['0909.160.774', '0909.765.966']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "ÁNH TÍN 497 KHA VẠN CẦN-KP5-P.LINH ĐÔNG-TP.THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "Bảng giá đất TP Thủ Đức (cập nhật mới nhất) | Houze Blog",
+      "url": "https://blog.houze.vn/blog/bang-gia-dat-tp-thu-duc-tphcm",
+      "snippet": "Bảng giá đất TP Thủ Đức theo bảng giá đất tại TPHCM có hiệu lực từ ngày 31/10/2024 đến hết ngày 31/12/2025."
+    },
+    {
+      "title": "Khách sạn nhà nghỉ tại Thành phố Thủ Đức (Cập nhật 4/2026)",
+      "url": "https://cungphuot.info/khach-san-nha-nghi-tai-thu-duc-ho-chi-minh-post6865.cp",
+      "snippet": "3 weeks ago - KHÁCH SẠN Khách Sạn Cao Danh Địa chỉ: 501/12 Kp5 Kha Vạn Cân, P Linh Đông, Thủ Đức, Hồ Chí Minh Điện thoại: 028 37205827"
+    },
+    {
+      "title": "Công An Thành phố Thủ Đức: Địa chỉ, số điện thoại liên hệ",
+      "url": "https://nhadathoangviet.com/thong-tin-cong-an-thanh-pho-thu-duc-cap-nhat-chinh-xac-nhat/",
+      "snippet": "April 15, 2025 - Công an Thành Phố Thủ Đức: Thông tin địa chỉ, số điện thoại, thời gian làm việc, chức năng, nhiệm vụ, quyền hạn và các thủ tục hành chính hiện hành"
+    },
+    {
+      "title": "Top 20 trường mầm non gần đường Kha Vạn Cân Thành phố Thủ Đức, Hồ Chí Minh năm học 2024-2025",
+      "url": "https://www.kiddi.vn/tim-kiem/ho-chi-minh/gan-duong-kha-van-can-thanh-pho-thu-duc",
+      "snippet": "Danh sách trường mầm non gần đường Kha Vạn Cân Thành phố Thủ Đức, HCM được đông đảo phụ huynh tin tưởng, tìm hiểu gửi trẻ với đầy đủ thông tin học phí, hình ảnh hoạt động cũng như chia sẻ từ phụ huynh cộng đồng review ..."
+    },
+    {
+      "title": "Văn phòng phẩm Quận Thủ Đức - Mua VPP Quận Thủ Đức giá rẻ",
+      "url": "https://vanphong-pham.com/van-phong-pham-quan-thu-duc/",
+      "snippet": "February 24, 2025 - Địa chỉ văn phòng phẩm Quận Thủ Đức: 300 Đ. Kha Vạn Cân, Linh Đông, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3204.jpg",
+    "shop_name": "ÁNH TÍN",
+    "address": "497 KHA VẠN CẦN-KP5-P.LINH ĐÔNG-TP.THỦ ĐỨC",
+    "phone_number": "['0909.160.774', '0909.765.966']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

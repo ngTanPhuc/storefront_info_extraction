@@ -1,0 +1,74 @@
+{
+  "image_name": "hình 3200.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"VUA HẢI SẢN ÚT LINH\",\n  \"address\": \"529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC\",\n  \"phone_number\": [\"091 5767 189\", \"0972 887\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "VUA HẢI SẢN ÚT LINH",
+    "address": "529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 887']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "VUA HẢI SẢN ÚT LINH",
+    "address": "529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 887']",
+    "website_links": [
+      "https://www.facebook.com/haisanutlinh/",
+      "https://haisanutlinh.com/"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "VUA HẢI SẢN ÚT LINH 529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "Mua sắm hải sản tại vựa hải sản út linh chất lượng tươi ngon",
+      "url": "https://xaydungso.vn/blog/mua-sam-hai-san-tai-vua-hai-san-ut-linh-chat-luong-tuoi-ngon-vi-cb.html",
+      "snippet": "The accurate address of Vựa Hải Sản Út Linh is 529-529A Kha Vạn Cân, Linh Đông Ward, Thủ Đức District, Ho Chi Minh City."
+    },
+    {
+      "title": "Trang chủ - HẢI SẢN THIÊN NHIÊN",
+      "url": "https://hsthiennhien.com/",
+      "snippet": "HẢI SẢN THIÊN NHIÊN ở vị trí đắc địa tại 1072 đường Kha Vạn Cân, P Linh Chiểu TP. Thủ Đức. Là địa điểm lý tưởng cho các buổi hẹn hò, tụ tập gia đình hoặc tiệc Liên hoan. Phòng VIP sang trọng. Sức chứa từ 10 đến 50 khách, ..."
+    },
+    {
+      "title": "VỰA HẢI SẢN ÚT LINH - THỦ ĐỨC",
+      "url": "https://mapstore.vn/dia-diem/thanh-pho-ho-chi-minh/thanh-pho-thu-duc/thanh-pho-ho-chi-minh-quan-thu-duc-phuong-linh-dong/vua-hai-san-ut-linh-thu-duc-1625910168520000",
+      "snippet": "July 10, 2021 - Vựa Hải Sản Út Linh - Thủ Đức; 587 Kha Vạn Cân Phường Linh Đông Thành phố Thủ Đức Thành phố Hồ Chí Minh; ;"
+    },
+    {
+      "title": "Hải Sản Út Linh | Ho Chi Minh City | Facebook",
+      "url": "https://www.facebook.com/haisanutlinh/",
+      "snippet": "Hải Sản Út Linh, Ho Chi Minh City. 19,795 likes · 313 talking about this · 330 were here. Chuyên cung cấp hải sản tươi sống 100%, bắt trực tiếp từ hồ tại quán. Thưởng thức ngay tại chỗ với dịch vụ..."
+    },
+    {
+      "title": "Hải Sản Út Linh – Vựa Hải Sản Thủ Đức",
+      "url": "https://haisanutlinh.com/",
+      "snippet": "Mình tổ chức liên hoan cho cả phòng ở Hải Sản Út Linh. Vì đặt bàn trước và đi theo nhóm đông nên được ưu đãi lớn. List đồ ăn đa dạng và phù hợp với mọi người từ trẻ con đến người lớn. Không gian còn đẹp và sang trọng ..."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://www.facebook.com/haisanutlinh/",
+        "https://haisanutlinh.com/"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3200.jpg",
+    "shop_name": "VUA HẢI SẢN ÚT LINH",
+    "address": "529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 887']",
+    "website_links": "https://www.facebook.com/haisanutlinh/, https://haisanutlinh.com/",
+    "open_hours": null
+  }
+}

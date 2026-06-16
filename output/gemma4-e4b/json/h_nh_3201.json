@@ -1,0 +1,74 @@
+{
+  "image_name": "hình 3201.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"SIÊU THỊ\",\n  \"address\": \"ĐT: 509 KHA VĂN CẢN, P. LINH ĐỘNG, Q. THỦ ĐỨC\",\n  \"phone_number\": [\n    \"0909.869.155\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "SIÊU THỊ",
+    "address": "ĐT: 509 KHA VĂN CẢN, P. LINH ĐỘNG, Q. THỦ ĐỨC",
+    "phone_number": "['0909.869.155']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "SIÊU THỊ",
+    "address": "ĐT: 509 KHA VĂN CẢN, P. LINH ĐỘNG, Q. THỦ ĐỨC",
+    "phone_number": "['0909.869.155']",
+    "website_links": [
+      "https://www.dienmayxanh.com/dien-may-525-kha-van-can-phuong-linh-dong-tp-thu-duc-tp-ho-chi-minh-id-9252",
+      "https://diadiem247.com/tp-ho-chi-minh/sieu-thi-dien-may-xanh-kha-van-can-tphcm-l180124.html"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "SIÊU THỊ ĐT: 509 KHA VĂN CẢN, P. LINH ĐỘNG, Q. THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "Siêu thị điện máy Chợ Lớn Thành phố Thủ Đức, Kha Vạn Cân",
+      "url": "https://dienmaycholon.com/he-thong-sieu-thi/523b-kha-van-can-linh-dong-tpthu-duc",
+      "snippet": "Siêu Thị Điện Máy – Nội Thất Chợ Lớn chi nhánh Linh Đông, Thủ Đức đặt tại địa chỉ số 523B Kha Vạn Cân, Linh Đông, Thành Phố Thủ Đức với tổng diện tích là 800m2 cho không gian trưng bày rộng rãi, thoải mái mang đến nhiều ..."
+    },
+    {
+      "title": "Hướng Dẫn Đường Đi Đến Ngõ 509 Vũ Tông Phan, Thanh Xuân Chi Tiết Nhất - 4sv",
+      "url": "https://4sv.vn/tim-duong-di/huong-dan-duong-di-den-ngo-509-vu-tong-phan-thanh-xuan-chi-tiet-nhat/",
+      "snippet": "September 22, 2025 - Lê Thị Hoài An ⭐⭐⭐⭐⭐ (5/5 sao) – 1 tháng trước Mình đã dùng thử cách đi bằng tàu điện trên cao kết hợp với xe ôm công nghệ như bài viết chỉ dẫn. Rất nhanh và tiện, tránh được tắc đường ở đường Nguyễn Trãi. Highly recommend cho ai đi từ Hà Đông nhé. Phạm Văn Đức ⭐⭐⭐⭐ (4/5 sao) – 2 tháng trước Ngõ 509 khá rộng ở đoạn đầu nhưng để tìm được số nhà 81 thì phải đi vào một cái ngách nhỏ bên tay trái."
+    },
+    {
+      "title": "Siêu thị Điện máy XANH Linh Đông, Thủ Đức, TP Hồ Chí Minh",
+      "url": "https://www.dienmayxanh.com/dien-may-525-kha-van-can-phuong-linh-dong-tp-thu-duc-tp-ho-chi-minh-id-9252",
+      "snippet": "Sự kiện khai trương sẽ đi kèm chuỗi hoạt động ưu đãi, đặc biệt hấp dẫn cho khách hàng đến tham quan siêu thị và trải nghiệm mua sắm tại 525 Kha Vạn Cân, Phường Linh Đông, TP Thủ Đức, TP."
+    },
+    {
+      "title": "Siêu thị Điện máy XANH Kha Vạn Cân, TPHCM | Địa điểm 247",
+      "url": "https://diadiem247.com/tp-ho-chi-minh/sieu-thi-dien-may-xanh-kha-van-can-tphcm-l180124.html",
+      "snippet": "Thông tin về địa điểm Siêu thị Điện máy XANH Kha Vạn Cân, TPHCM, 584 Kha Vạn Cân, P Linh Đông, Quận Thủ Đức, TPHCM, , , Thành phố Hồ Chí Minh"
+    },
+    {
+      "title": "Siêu thị Điện máy XANH Kha Vạn Cân, TPHCM",
+      "url": "https://www.dienmayxanh.com/dien-may-584-kha-van-can-p-linh-dong-quan-thu-duc-tphcm-gan-nga-3-pham-van-dong-kha-van-can-2138",
+      "snippet": "HCM 21 Trần Não , Phường Bình An , Quận 2 , TP.HCM (Cách công viên Dạ Cầu Sài Gòn 30m) 184 Võ Văn Ngân, P. Bình Thọ, Q. Thủ Đức, TP. HCM (gần trường cao đẳng Xây Dựng số 2) 171 Đỗ Xuân Hợp, P. Phước Long B, Q.9, TP.HCM (Góc ngã 3 Đỗ Xuân Hợp - Tăng Nhơn Phú) 43 Quốc Lộ 1K, Khu Phố 2 , P. Linh Xuân, Q."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://www.dienmayxanh.com/dien-may-525-kha-van-can-phuong-linh-dong-tp-thu-duc-tp-ho-chi-minh-id-9252",
+        "https://diadiem247.com/tp-ho-chi-minh/sieu-thi-dien-may-xanh-kha-van-can-tphcm-l180124.html"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3201.jpg",
+    "shop_name": "SIÊU THỊ",
+    "address": "ĐT: 509 KHA VĂN CẢN, P. LINH ĐỘNG, Q. THỦ ĐỨC",
+    "phone_number": "['0909.869.155']",
+    "website_links": "https://www.dienmayxanh.com/dien-may-525-kha-van-can-phuong-linh-dong-tp-thu-duc-tp-ho-chi-minh-id-9252, https://diadiem247.com/tp-ho-chi-minh/sieu-thi-dien-may-xanh-kha-van-can-tphcm-l180124.html",
+    "open_hours": null
+  }
+}

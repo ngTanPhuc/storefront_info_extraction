@@ -1,0 +1,74 @@
+{
+  "image_name": "hình 3208.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"Phụ Kiện - Loa Míc Karaoke\",\n  \"address\": \"Số 471 Đ. KHA VẠN CÂN, P. LINH ĐÔNG, TP. THỦ ĐỨC, HCM\",\n  \"phone_number\": [\"0962.62.62.64\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "Phụ Kiện - Loa Míc Karaoke",
+    "address": "Số 471 Đ. KHA VẠN CÂN, P. LINH ĐÔNG, TP. THỦ ĐỨC, HCM",
+    "phone_number": "['0962.62.62.64']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "Phụ Kiện - Loa Míc Karaoke",
+    "address": "Số 471 Đ. KHA VẠN CÂN, P. LINH ĐÔNG, TP. THỦ ĐỨC, HCM",
+    "phone_number": "['0962.62.62.64']",
+    "website_links": [
+      "https://loakaraoke.com.vn/",
+      "https://daithienan.com/linh-kien-loa"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "Phụ Kiện - Loa Míc Karaoke Số 471 Đ. KHA VẠN CÂN, P. LINH ĐÔNG, TP. THỦ ĐỨC, HCM"
+  ],
+  "search_results": [
+    {
+      "title": "Loa Karaoke Gia Dinh, Loa Karaoke Bmb, Loa Karaoke Jbl, Loa Bose Chuyen ...",
+      "url": "https://loakaraoke.com.vn/loa.html",
+      "snippet": "LOA KARAOKE - Phân phối Loa karaoke chuyên nghiệp. Bao gồm loa karaoke BMB, loa karaoke JBL, loa yamaha chính hãng. Sản phẩm Loa karaoke được bảo hành 24 tháng"
+    },
+    {
+      "title": "Phụ kiện loa kéo di động, bao gồm tất cả linh phụ kiện",
+      "url": "https://loakeodidong.com/phu-kien-loa-keo-di-dong.html",
+      "snippet": "Phụ kiện loa kéo di động, chúng tôi cung cấp tất cả các linh phụ kiện đầy đủ của một chiếc loa karaoke di dong: thùng, tay kéo , bánh xe, board mạch..."
+    },
+    {
+      "title": "Loakaraoke.com.vn - Loa karaoke chính hãng giá tốt nhất",
+      "url": "https://loakaraoke.com.vn/",
+      "snippet": "Loakaraoke.com.vn chuyên phân phối các sản phẩm loa karaoke, thiết bị phòng hát karaoke gồm: loa karaoke, loa sub, amply karaoke, micro hát karaoke, mixer karaoke, dàn karaoke, cục đẩy công suất, đầu hát karaoke chính hãng giá tốt nhất hiện nay"
+    },
+    {
+      "title": "Linh Kiện Loa - Daithienan",
+      "url": "https://daithienan.com/linh-kien-loa",
+      "snippet": "Côn Loa JBL 2452H DAS Audio K8,K10, ND-8,ND-10 JBL 2445 2446 2447 2450 2451 2452H 2446 2447 1.210.000₫"
+    },
+    {
+      "title": "Top 3 Địa Chỉ Mua Thiết Bị Karaoke Uy Tín, Chất Lượng Cao Tại TP.HCM",
+      "url": "https://top3.vn/top-3-dia-chi-mua-thiet-bi-karaoke-uy-tin-chat-luong-cao-tai-tphcm-1",
+      "snippet": "Tại đây, khách hàng có thể tìm thấy đầy đủ các thiết bị cần thiết cho một dàn karaoke hoàn chỉnh như loa karaoke, ampli, vang số, micro không dây và phụ kiện đi kèm."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://loakaraoke.com.vn/",
+        "https://daithienan.com/linh-kien-loa"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3208.jpg",
+    "shop_name": "Phụ Kiện - Loa Míc Karaoke",
+    "address": "Số 471 Đ. KHA VẠN CÂN, P. LINH ĐÔNG, TP. THỦ ĐỨC, HCM",
+    "phone_number": "['0962.62.62.64']",
+    "website_links": "https://loakaraoke.com.vn/, https://daithienan.com/linh-kien-loa",
+    "open_hours": null
+  }
+}

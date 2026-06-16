@@ -1,4 +1,4 @@
-output/.paddx_cache/
+output/.paddx_cache/*
 output/.tmp
 
 .idea

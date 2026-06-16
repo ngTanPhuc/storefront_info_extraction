@@ -1,0 +1,74 @@
+{
+  "image_name": "hình 3203.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"A Di Đà Phật\",\n  \"address\": \"499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM\",\n  \"phone_number\": [\"0283.897.1453\", \"0967.256.353\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "A Di Đà Phật",
+    "address": "499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM",
+    "phone_number": "['0283.897.1453', '0967.256.353']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "A Di Đà Phật",
+    "address": "499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM",
+    "phone_number": "['0283.897.1453', '0967.256.353']",
+    "website_links": [
+      "https://vanphong-pham.com/van-phong-pham-quan-thu-duc/",
+      "https://kingsport.vn/showroom-kingsport-kha-van-can-thu-duc.html"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "A Di Đà Phật 499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM"
+  ],
+  "search_results": [
+    {
+      "title": "ỦY BAN NHÂN DÂN THÀNH PHỐ THỦ ĐỨC",
+      "url": "https://tpthuduc.hochiminhcity.gov.vn/hoidap",
+      "snippet": "ỦY BAN NHÂN DÂN THÀNH PHỐ THỦ ĐỨC"
+    },
+    {
+      "title": "Bảng giá đất TP Thủ Đức (cập nhật mới nhất) | Houze Blog",
+      "url": "https://blog.houze.vn/blog/bang-gia-dat-tp-thu-duc-tphcm",
+      "snippet": "Đây là Bảng giá đất TP. Thủ Đức có hiệu lực thi hành kể từ ngày 31/10/2024 đến hết ngày 31/12/2025."
+    },
+    {
+      "title": "Văn phòng phẩm Quận Thủ Đức - Mua VPP Quận Thủ Đức giá rẻ",
+      "url": "https://vanphong-pham.com/van-phong-pham-quan-thu-duc/",
+      "snippet": "February 24, 2025 - Địa chỉ văn phòng phẩm Quận Thủ Đức: 300 Đ. Kha Vạn Cân, Linh Đông, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam · Địa chỉ văn Phòng Phẩm Quận Thủ Đức gần đây giá rẻ tại Hiệp Bình Phước, Hiệp Bình Chánh…, Là Công Ty AIO."
+    },
+    {
+      "title": "KINGSPORT KHA VẠN CÂN - THỦ ĐỨC - HCM | Kingsport",
+      "url": "https://kingsport.vn/showroom-kingsport-kha-van-can-thu-duc.html",
+      "snippet": "Showroom KINGSPORT KHA VẠN CÂN - THỦ ĐỨC - HCM hân hoan chào đón quý khách hàng trải nghiệm các sản phẩm cực kỳ hot như ghế massage Thủ Đức, máy chạy bộ Thủ Đức, giàn tạ đa năng Thủ Đức, xe đạp tập thể dục Thủ Đức với mức giá ưu đãi nhất thị trường."
+    },
+    {
+      "title": "Top 20 trường mầm non gần đường Kha Vạn Cân Thành phố Thủ Đức, Hồ Chí Minh năm học 2024-2025",
+      "url": "https://www.kiddi.vn/tim-kiem/ho-chi-minh/gan-duong-kha-van-can-thanh-pho-thu-duc",
+      "snippet": "Danh sách trường mầm non gần đường Kha Vạn Cân Thành phố Thủ Đức, HCM được đông đảo phụ huynh tin tưởng, tìm hiểu gửi trẻ với đầy đủ thông tin học phí, hình ảnh hoạt động cũng như chia sẻ từ phụ huynh cộng đồng review ..."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://vanphong-pham.com/van-phong-pham-quan-thu-duc/",
+        "https://kingsport.vn/showroom-kingsport-kha-van-can-thu-duc.html"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3203.jpg",
+    "shop_name": "A Di Đà Phật",
+    "address": "499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM",
+    "phone_number": "['0283.897.1453', '0967.256.353']",
+    "website_links": "https://vanphong-pham.com/van-phong-pham-quan-thu-duc/, https://kingsport.vn/showroom-kingsport-kha-van-can-thu-duc.html",
+    "open_hours": null
+  }
+}

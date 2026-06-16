@@ -1,0 +1,72 @@
+{
+  "image_name": "hình 3206.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"HOÀNG ĐẠI\",\n  \"address\": \"479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH\",\n  \"phone_number\": [\"08223.8701\", \"0922.148.333\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "HOÀNG ĐẠI",
+    "address": "479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['08223.8701', '0922.148.333']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "HOÀNG ĐẠI",
+    "address": "479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['08223.8701', '0922.148.333']",
+    "website_links": [
+      "https://www.foody.vn/ho-chi-minh/hoa-hong-hotel-kha-van-can"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "HOÀNG ĐẠI 479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH"
+  ],
+  "search_results": [
+    {
+      "title": "Mua bán đất tại đường Kha Vạn Cân, Thành phố Thủ Đức",
+      "url": "https://batdongsan.com.vn/ban-dat-duong-kha-van-can-71",
+      "snippet": "Bán đất tại Đường Kha Vạn Cân, , Thành phố Thủ Đức: với các loại diện tích, giá bán, địa điểm khác nhau. Bán đất tại Đường Kha Vạn Cân, , Thành phố Thủ Đức, chuyển nhượng, mua bán nhà đất, đầy đủ, cập nhật nhất."
+    },
+    {
+      "title": "Mua bán nhà đất, bất động sản tại Đường Kha Vạn Cân, Thành phố Thủ Đức ...",
+      "url": "https://alonhadat.com.vn/nha-dat/can-ban/nha-dat/duong-kha-van-can-thanh-pho-thu-duc-dp2461.html",
+      "snippet": "Bán nhà đất Đường Kha Vạn Cân, bán bất động sản mới nhất tháng 6/2026 chính chủ, giá rẻ, vị trí đẹp, đường rộng. Mua bán nhà đất ở Kha Vạn Cân, Thủ Đức có giấy tờ sổ hồng đỏ, nhiều diện tích, hướng đông, tây, nam, bắc"
+    },
+    {
+      "title": "Khám Phá Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh: Hướng Dẫn Chi Tiết ...",
+      "url": "https://meetup.vn/dia-diem/duong-kha-van-can-thu-duc-tp-ho-chi-minh/",
+      "snippet": "Hướng dẫn khám phá Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh. Xem chi tiết về vị trí, cách đi lại, các tiện ích nổi bật và tình hình giao thông trên tuyến đường huyết mạch này."
+    },
+    {
+      "title": "Mua bán nhà đất bất động sản đường Kha Vạn Cân, Quận Thủ Đức, TP. Hồ ...",
+      "url": "https://guland.vn/mua-ban-bat-dong-san-duong-kha-van-can-quan-thu-duc-tp-ho-chi-minh",
+      "snippet": "Nhanh tay sở hữu căn nhà riêng tại Kha Vạn Cân, Phường Linh Tây, Thủ Đức, TP.HCM với diện tích 61,5m². Giá bán chỉ 5,7 tỷ VND. Nhà có thiết kế hiện đại, phù hợp cho gia đình nhỏ. Vị trí thuận lợi, dễ dàng di chuyển đến các khu vực lân cận. Khu vực an ninh, yên tĩnh, thích hợp để sinh sống."
+    },
+    {
+      "title": "Hoa Hồng Hotel - Kha Vạn Cân ở Tp. Thủ Đức, TP. HCM",
+      "url": "https://www.foody.vn/ho-chi-minh/hoa-hong-hotel-kha-van-can",
+      "snippet": "Hoa Hồng Hotel - Kha Vạn Cân - Khách sạn tại 479 Kha Vạn Cân, P. Linh Đông, Tp. Thủ Đức, TP. HCM. Giá bình quân đầu người 80.000đ - 250.000đ."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://www.foody.vn/ho-chi-minh/hoa-hong-hotel-kha-van-can"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3206.jpg",
+    "shop_name": "HOÀNG ĐẠI",
+    "address": "479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['08223.8701', '0922.148.333']",
+    "website_links": "https://www.foody.vn/ho-chi-minh/hoa-hong-hotel-kha-van-can",
+    "open_hours": null
+  }
+}

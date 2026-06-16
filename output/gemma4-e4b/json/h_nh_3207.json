@@ -1,0 +1,48 @@
+{
+  "image_name": "hình 3207.jpg",
+  "model": "gemma4:latest",
+  "raw_response": "{\n  \"shop_name\": \"ĐẠI PHÁT\",\n  \"address\": \"ĐT: 477 KHA VĂN CẢNH, P. LĨNH ĐÔNG, Q. THỦ ĐỨC\",\n  \"phone_number\": [\n    \"02832751390\",\n    \"096826266\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "ĐẠI PHÁT",
+    "address": "ĐT: 477 KHA VĂN CẢNH, P. LĨNH ĐÔNG, Q. THỦ ĐỨC",
+    "phone_number": "['02832751390', '096826266']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "ĐẠI PHÁT",
+    "address": "ĐT: 477 KHA VĂN CẢNH, P. LĨNH ĐÔNG, Q. THỦ ĐỨC",
+    "phone_number": "['02832751390', '096826266']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "ĐẠI PHÁT ĐT: 477 KHA VĂN CẢNH, P. LĨNH ĐÔNG, Q. THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "Urgent Statement on Vietnam’s arrest of Activist Tran Thi Nga",
+      "url": "https://vietnamhumanrightsdefenders.net/2017/01/25/urgent-statement-on-vietnams-arrest-of-activist-tran-thi-nga/",
+      "snippet": "... Nguyen Thien Nhan (Nguyễn Thiện Nhân), hội viên Hội ... 75 Facebooker Minh Thiện, La Vân1, Quỳnh Hồng, Quỳnh Phụ, Thái Bình"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3207.jpg",
+    "shop_name": "ĐẠI PHÁT",
+    "address": "ĐT: 477 KHA VĂN CẢNH, P. LĨNH ĐÔNG, Q. THỦ ĐỨC",
+    "phone_number": "['02832751390', '096826266']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

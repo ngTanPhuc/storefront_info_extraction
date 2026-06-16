@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3206.jpg",
+  "model": "qwen3.5:9b",
+  "raw_response": "{\n  \"shop_name\": \"HOÀNG ĐẠI CƠ SỞ ĐIỆN LẠNH\",\n  \"address\": \"479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH\",\n  \"phone_number\": [\n    \"(08) 2223.8701\",\n    \"0922.148.333\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "HOÀNG ĐẠI CƠ SỞ ĐIỆN LẠNH",
+    "address": "479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['(08) 2223.8701', '0922.148.333']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "HOÀNG ĐẠI CƠ SỞ ĐIỆN LẠNH",
+    "address": "479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['(08) 2223.8701', '0922.148.333']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "HOÀNG ĐẠI CƠ SỞ ĐIỆN LẠNH 479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH"
+  ],
+  "search_results": [
+    {
+      "title": "TOP 7 Trung Tâm Bảo Hành Máy Lạnh TPHCM Được Tin Tưởng",
+      "url": "https://vuadienmay.com/top-cac-trung-tam-sua-chua-bao-hanh-may-lanh-tai-tphcm",
+      "snippet": "Bảo hành dài lâu, giá dịch vụ sửa chữa khá rẻ. ... Địa chỉ: 4/7A đường Bà Điểm 9, ấp Đông Lân, Bà Điểm, Hóc Môn, Tp Hồ Chí Minh"
+    },
+    {
+      "title": "Cửa hàng chính hãng - Shokz Việt Nam",
+      "url": "https://shokz.com.vn/store/",
+      "snippet": "December 9, 2025 - Tai nghe thể thao truyền âm thanh qua xương Shokz được phân phối tại các cửa hàng chính hãng Shokz Việt Nam tại TP.HCM và Hà Nội"
+    },
+    {
+      "title": "Cơ sở điện lạnh - hvacrvn.com",
+      "url": "http://hvacrvn.com/co-so.html",
+      "snippet": "CÔNG TY TNHH TMDV CƠ ĐIỆN LẠNH NAM DƯƠNG Số 24b, ngõ 278 Kim Giang, Hoàng Mai, Hà Nội 0962 393 778 Xem bản đồ · CÔNG TY TNHH TM DV CƠ ĐIỆN LẠNH THÀNH ĐẠT 681/24 Âu Cơ,P.Tân Thành, Quận Tân Phú 0917 645 749 Xem bản đồ · TRUNG TÂM SỬA CHỮA ĐIỆN LẠNH THÀNH ĐẠT 29B Đường 37, Phường Linh Đông, Quận Thủ Đức, Tp. Hồ Chí Minh 0969 327 527 Xem bản đồ"
+    },
+    {
+      "title": "Mua, Bán nhà đất gần Công An Phường Linh Trung TP Thủ Đức Kha Vạn Cân, Linh Trung, Thủ Đức, Hồ Chí Minh",
+      "url": "https://sosanhnha.com/diadiem/cong-an-phuong-linh-trung-tp-thu-duc-8K8Pda",
+      "snippet": "BÁN CĂN HỘ CHUNG CƯ LINH TRUNG 1 PHÒNG NGỦ - đc: số 6 đường 17, phường linh trung, thủ đức( ngay bệnh viện đa khoa thủ đưc) - Sổ hồng riêng - hỗ trợ vay ngân hàng - Tặng nội thất: tủ quần áo gỗ, tủ lạnh, máy lạnh, máy nước nóng, ..."
+    },
+    {
+      "title": "Khách sạn Hoàng Ánh - 628A, Kha Vạn Cân, P. Linh Đông, Q. Thủ Đức, Tp. Hồ Chí Minh - Cốc Cốc Map",
+      "url": "https://map.coccoc.com/map/1124771730618622",
+      "snippet": "Khách sạn Hoàng Ánh - Khách sạn và chỗ ở. . 628A, Kha Vạn Cân, P. Linh Đông, Q. Thủ Đức, Tp. Hồ Chí Minh. Đánh giá của người dùng, Chỉ đường, Thêm đánh giá, Facebook"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3206.jpg",
+    "shop_name": "HOÀNG ĐẠI CƠ SỞ ĐIỆN LẠNH",
+    "address": "479 ĐƯỜNG KHA VẠN CÂN, PHƯỜNG THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['(08) 2223.8701', '0922.148.333']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

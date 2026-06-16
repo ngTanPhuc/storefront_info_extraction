@@ -1,0 +1,74 @@
+{
+  "image_name": "hình 3200.jpg",
+  "model": "qwen3.5:9b",
+  "raw_response": "{\n  \"shop_name\": \"Vua Hải Sản Út Linh\",\n  \"address\": \"529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC\",\n  \"phone_number\": [\n    \"091 5767 189\",\n    \"0972 88\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "Vua Hải Sản Út Linh",
+    "address": "529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 88']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "Vua Hải Sản Út Linh",
+    "address": "529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 88']",
+    "website_links": [
+      "https://haisanutlinh.com/",
+      "https://www.facebook.com/haisanutlinh/"
+    ],
+    "open_hours": null
+  },
+  "search_queries": [
+    "Vua Hải Sản Út Linh 529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC"
+  ],
+  "search_results": [
+    {
+      "title": "Hải Sản Út Linh – Vựa Hải Sản Thủ Đức",
+      "url": "https://haisanutlinh.com/",
+      "snippet": "Nếu bạn đang tìm nhà hàng hải sản ngon tại Thành Phố Thủ Đức thì tốt nhất hãy đến Hải Sản Út Linh, ở đây không thiếu gì cả. Tôi đánh giá cao thái độ phục vụ chuyên nghiệp và đồ ăn rất hấp dẫn."
+    },
+    {
+      "title": "Hải Sản Út Linh | Ho Chi Minh City - Facebook",
+      "url": "https://www.facebook.com/haisanutlinh/",
+      "snippet": "📍 HẢI SẢN ÚT LINH – HẢI SẢN TƯƠI NGON & GIÁ CẢ HỢP LÝ! ———————— 🌎 Hải sản Út Linh ☎️ 0972 887 650 - 0792 332 338 📌 Cơ sở 1: 529-529A Kha Vạn Cân, P. Thủ Đức 📌 Cơ sở 2: 57 Lã Xuân Oai, P. Tăng Nhơn Phú #haisanutlinh#haisan#haisanthuduc#seafood Huỳnh Thanh Tiền 1 Hải Sản Út Linh 1d QUỐC ..."
+    },
+    {
+      "title": "CHI NHÁNH CÔNG TY TNHH TM DV XNK PHAN GIA VỰA HẢI SẢN ÚT LINH",
+      "url": "https://hsctvn.com/chi-nhanh-cong-ty-tnhh-tm-dv-xnk-phan-gia-i__-vua-hai-san-ut-linh-com-3255133.htm",
+      "snippet": "Địa chỉ: 529-529A Kha Vạn Cân, Phường Linh Đông, Thành phố Thủ Đức, TP Hồ Chí Minh - Mã số thuế: 0317442247-001. Giám đốc: Phan Thanh Thức"
+    },
+    {
+      "title": "0317442247-001 - CHI NHÁNH CÔNG TY TNHH TM DV XNK PHAN GIA VỰA HẢI SẢN ...",
+      "url": "https://thuvienphapluat.vn/ma-so-thue/chi-nhanh-cong-ty-tnhh-tm-dv-xnk-phan-gia-vua-hai-san-ut-linh-mst-0317442247-001.html",
+      "snippet": "CHI NHÁNH CÔNG TY TNHH TM DV XNK PHAN GIA VỰA HẢI SẢN ÚT LINH - Mã số thuế 0317442247-001 - Địa chỉ: 529-529A Kha Vạn Cân, Phường Linh Đông, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam."
+    },
+    {
+      "title": "Hải Sản Út Linh (@haisanutlinh10) | TikTok",
+      "url": "https://www.tiktok.com/@haisanutlinh10",
+      "snippet": "Hải Sản Út Linh (@haisanutlinh10) trên TikTok |136 Lượt thích.323 Follower.Chuyên hải sản tươi sống 100% CN1: 529-529A Kha Vạn Cân CN2: 67 Lã Xuân Oai.Xem video mới nhất từ Hải Sản Út Linh (@haisanutlinh10)."
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [
+        "https://haisanutlinh.com/",
+        "https://www.facebook.com/haisanutlinh/"
+      ],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3200.jpg",
+    "shop_name": "Vua Hải Sản Út Linh",
+    "address": "529 529A KHA VẠN CÂN, P.LINH ĐÔNG, TP.THỦ ĐỨC",
+    "phone_number": "['091 5767 189', '0972 88']",
+    "website_links": "https://haisanutlinh.com/, https://www.facebook.com/haisanutlinh/",
+    "open_hours": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3210.jpg",
+  "model": "qwen2.5vl:7b",
+  "raw_response": "{\n  \"shop_name\": \"CÔNG TY TNHH MỘT THÀNH VIÊN SX - TM - DV - CƠ KHÍ XÂY DỰNG\",\n  \"address\": \"471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức TP.HCM\",\n  \"phone_number\": [\"0929396866\", \"0913733671\"],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "CÔNG TY TNHH MỘT THÀNH VIÊN SX - TM - DV - CƠ KHÍ XÂY DỰNG",
+    "address": "471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức TP.HCM",
+    "phone_number": "['0929396866', '0913733671']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "CÔNG TY TNHH MỘT THÀNH VIÊN SX - TM - DV - CƠ KHÍ XÂY DỰNG",
+    "address": "471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức TP.HCM",
+    "phone_number": "['0929396866', '0913733671']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "CÔNG TY TNHH MỘT THÀNH VIÊN SX - TM - DV - CƠ KHÍ XÂY DỰNG 471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức TP.HCM"
+  ],
+  "search_results": [
+    {
+      "title": "Công Ty TNHH Sản Xuất Thương Mại Dịch Vụ Cơ Khí Khai Minh",
+      "url": "https://www.yellowpages.vn/lgs/1187827821/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-co-khi-khai-minh.html",
+      "snippet": "Địa chỉ nhà máy: Số 113/14, Đường 11, P. Linh Xuân, Q. Thủ Đức, TP. HCM ... Thành lập từ năm 2014, Công Ty TNHH Kỹ Thuật Công Nghiệp Khai Minh được hình thành với khát vọng tạo ra thiết bị inox chất lượng cao và xây dựng một môi ..."
+    },
+    {
+      "title": "Công ty TNHH SX-TM và DV Huỳnh Đức: Phát triển ổn định, nâng tầm thương hiệu",
+      "url": "https://thanhnien.vn/cong-ty-tnhh-sx-tm-va-dv-huynh-duc-phat-trien-on-dinh-nang-tam-thuong-hieu-18596.htm",
+      "snippet": "June 20, 2014 - Chính thức thành lập vào năm 1995, sau gần 20 năm xây dựng và phát triển, Công ty TNHH SX-TM và DV Huỳnh Đức đã ngày một khẳng định được năng lực, thế mạnh cũng như uy tín trên thị trường."
+    },
+    {
+      "title": "CTY TNHH SX TMDV KHẢI ĐÔNG - Những Trang Vàng Việt Nam - Yellow Pages Vietnam",
+      "url": "https://yp.vn/listing/cty-tnhh-sx-tmdv-khai-dong-6203051/",
+      "snippet": "March 20, 2024 - Công ty TNHH SX-TM và DV Khải Đông được thành lập tháng 07 năm 2000, là công ty chuyên cung cấp các linh kiện khí nén tự động hóa, sản phẩm và các thiết bị"
+    },
+    {
+      "title": "Công văn 1798/TCT-TTKT: Tổng cục Thuế công bố danh sách 524 doanh nghiệp rủi ro về hóa đơn",
+      "url": "https://ketoananpha.vn/cong-van-1798-tct-ttkt",
+      "snippet": "Tải miễn phí công văn 1798/TCT-TTKT: Tổng cục Thuế công bố danh sách 524 doanh nghiệp rủi ro về hóa đơn, được ban hành vào ngày 16/5/2023."
+    },
+    {
+      "title": "Portfolio – Hiệp Hội Doanh Nghiệp Cơ Khí – Điện TPHCM",
+      "url": "https://hamee.vn/featured_item/",
+      "snippet": "1124 Kha Vạn Cân, Phường Linh Chiểu, Quận Thủ Đức, Thành Phố Hồ Chí Minh, Việt Nam"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3210.jpg",
+    "shop_name": "CÔNG TY TNHH MỘT THÀNH VIÊN SX - TM - DV - CƠ KHÍ XÂY DỰNG",
+    "address": "471 Kha Vạn Cân, P. Linh Đông, TP. Thủ Đức TP.HCM",
+    "phone_number": "['0929396866', '0913733671']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

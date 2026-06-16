@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3205.jpg",
+  "model": "qwen3.5:9b",
+  "raw_response": "{\n  \"shop_name\": \"Cơ sở Gò Hàn TUAN SON 1\",\n  \"address\": \"487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH\",\n  \"phone_number\": [\n    \"0903.630.662\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "Cơ sở Gò Hàn TUAN SON 1",
+    "address": "487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "Cơ sở Gò Hàn TUAN SON 1",
+    "address": "487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "Cơ sở Gò Hàn TUAN SON 1 487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH"
+  ],
+  "search_results": [
+    {
+      "title": "Cơ Sở Gò Hàn Inox Tổng Hợp TUẤN KHÔI | Ho Chi Minh City",
+      "url": "https://www.facebook.com/gohaninoxtonghopTuanKhoi/",
+      "snippet": "Cơ Sở Gò Hàn Inox Tổng Hợp TUẤN KHÔI, Ho Chi Minh City. 290 likes · 1 was here. Chuyên Thiết Kế,Lắp Đặt & Bảo Trì: Hệ thống điều hoà không khí, hệ thống hút khói bếp, hút bụi, ống gió, máng xối, chụp..."
+    },
+    {
+      "title": "Khám Phá Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh: Hướng Dẫn Chi Tiết ...",
+      "url": "https://meetup.vn/dia-diem/duong-kha-van-can-thu-duc-tp-ho-chi-minh/",
+      "snippet": "Hướng dẫn khám phá Đường Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh. Xem chi tiết về vị trí, cách đi lại, các tiện ích nổi bật và tình hình giao thông trên tuyến đường huyết mạch này."
+    },
+    {
+      "title": "Đường Kha Vạn Cân: Vị Trí, Giao Thông Và Bất Động Sản Xung Quanh",
+      "url": "https://batdongsan.vn/tin-tuc/duong-kha-van-can-vi-tri-giao-thong-va-bat-dong-san-xung-quanh",
+      "snippet": "Đường Kha Vạn Cân, Thủ Đức, TP.HCM là trục giao thông trọng yếu, kết nối các khu dân cư với trung tâm thành phố, thu hút nhiều dự án bất động sản và phát triển hạ tầng."
+    },
+    {
+      "title": "Cho thuê văn phòng đường Kha Vạn Cân, Thủ Đức, TP.HCM - Maison Office",
+      "url": "https://maisonoffice.vn/cho-thue-van-phong-tphcm/duong-kha-van-can/",
+      "snippet": "Đường Kha Vạn Cân là một tuyến đường huyết mạch nối liền Thành phố Thủ Đức với các quận trung tâm của Thành phố Hồ Chí Minh. Đây cũng là một trong những khu vực phát triển kinh tế – xã hội sôi động của Thành phố Thủ Đức, tập trung nhiều doanh nghiệp, công ty. Chính vì vậy, nhu cầu thuê văn phòng ..."
+    },
+    {
+      "title": "Mua bán Nhà riêng tại Đường Kha Vạn Cân, Quận Thủ Đức, TP Hồ Chí Minh ...",
+      "url": "https://homedy.com/ban-nha-rieng-duong-kha-van-can-quan-thu-duc-tp-ho-chi-minh",
+      "snippet": "Chia tài sản bán gấp 65m2 nhà 1 lầu Kha Vạn Cân-Thủ Đức-gần Đại Học Ngân Hàng-sổ riêng-giá 985tr - Nằm gần các tuyến đường lớn thuận tiện di chuyển sang các quận trung tâm khác.-"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3205.jpg",
+    "shop_name": "Cơ sở Gò Hàn TUAN SON 1",
+    "address": "487 KHA VẠN CÂN, P. THỦ ĐỨC, TP. HỒ CHÍ MINH",
+    "phone_number": "['0903.630.662']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

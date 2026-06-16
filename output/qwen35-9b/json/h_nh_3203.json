@@ -1,0 +1,68 @@
+{
+  "image_name": "hình 3203.jpg",
+  "model": "qwen3.5:9b",
+  "raw_response": "{\n  \"shop_name\": \"TẤN ĐẠT\",\n  \"address\": \"499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM\",\n  \"phone_number\": [\n    \"0283.897.1453\",\n    \"0967.256.353\"\n  ],\n  \"website_links\": [],\n  \"open_hours\": null\n}",
+  "parsed_result": {
+    "shop_name": "TẤN ĐẠT",
+    "address": "499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM",
+    "phone_number": "['0283.897.1453', '0967.256.353']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "final_result": {
+    "shop_name": "TẤN ĐẠT",
+    "address": "499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM",
+    "phone_number": "['0283.897.1453', '0967.256.353']",
+    "website_links": [],
+    "open_hours": null
+  },
+  "search_queries": [
+    "TẤN ĐẠT 499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM"
+  ],
+  "search_results": [
+    {
+      "title": "ỦY BAN NHÂN DÂN THÀNH PHỐ THỦ ĐỨC",
+      "url": "https://tpthuduc.hochiminhcity.gov.vn/hoidap",
+      "snippet": "ỦY BAN NHÂN DÂN THÀNH PHỐ THỦ ĐỨC"
+    },
+    {
+      "title": "Bảng giá đất TP Thủ Đức (cập nhật mới nhất) | Houze Blog",
+      "url": "https://blog.houze.vn/blog/bang-gia-dat-tp-thu-duc-tphcm",
+      "snippet": "Bảng giá đất TP Thủ Đức theo bảng giá đất tại TPHCM có hiệu lực từ ngày 31/10/2024 đến hết ngày 31/12/2025."
+    },
+    {
+      "title": "Bảng giá đất Quận Thủ Đức, TP Thủ Đức (cập nhật mới nhất) | Houze Blog",
+      "url": "https://blog.houze.vn/blog/bang-gia-dat-quan-thu-duc",
+      "snippet": "Bảng giá đất Quận Thủ Đức theo bảng giá đất tại TPHCM có hiệu lực từ ngày 31/10/2024 đến hết ngày 31/12/2025."
+    },
+    {
+      "title": "Mua bán nhà đất Đường Kha Vạn Cân, Thành phố Thủ Đức, bất động sản bán tháng 6/2026",
+      "url": "https://alonhadat.com.vn/nha-dat/can-ban/nha-dat/duong-kha-van-can-thanh-pho-thu-duc-dp2461.html",
+      "snippet": "Bán nhà đất Đường Kha Vạn Cân, bán bất động sản mới nhất tháng 6/2026 chính chủ, giá rẻ, vị trí đẹp, đường rộng. Mua bán nhà đất ở Kha Vạn Cân, Thủ Đức có giấy tờ sổ hồng đỏ, nhiều diện tích, hướng đông, tây, nam, bắc"
+    },
+    {
+      "title": "Văn phòng phẩm Quận Thủ Đức - Mua VPP Quận Thủ Đức giá rẻ",
+      "url": "https://vanphong-pham.com/van-phong-pham-quan-thu-duc/",
+      "snippet": "February 24, 2025 - Địa chỉ: Kha Vạn Cân, Linh Đông, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam"
+    }
+  ],
+  "enrichment_results": {
+    "missing_fields": [
+      "website_links",
+      "open_hours"
+    ],
+    "extracted": {
+      "website_links": [],
+      "open_hours": null
+    },
+    "status": "completed"
+  },
+  "export_row": {
+    "image_name": "hình 3203.jpg",
+    "shop_name": "TẤN ĐẠT",
+    "address": "499 KHA VẠN CÂN - KP.23 - P. THỦ ĐỨC - TP.HCM",
+    "phone_number": "['0283.897.1453', '0967.256.353']",
+    "website_links": "",
+    "open_hours": null
+  }
+}

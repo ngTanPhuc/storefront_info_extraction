@@ -1,0 +1,10 @@
+{
+  "processing_status": "failed",
+  "created_at": "2026-06-16T02:50:06.730354+00:00",
+  "image_name": "hình 3209.jpg",
+  "source_image": "data/hình 3209.jpg",
+  "failed_stage": "image_preparation",
+  "error_type": "ConnectionError",
+  "error_message": "Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/src/pipeline.py\", line 87, in run_pipeline\n    shop_info = extractor.extract_from_image(image_path)\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/src/extractor.py\", line 112, in extract_from_image\n    parsed_response = self._request_json(\n        prompt=VLM_EXTRACTION_PROMPT,\n        image_path=image_for_model,\n    )\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/src/extractor.py\", line 144, in _request_json\n    content = self._chat(prompt=prompt, image_path=image_path)\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/src/extractor.py\", line 170, in _chat\n    response = chat(\n        model=self.model,\n    ...<5 lines>...\n        },\n    )\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/.venv/lib/python3.13/site-packages/ollama/_client.py\", line 387, in chat\n    return self._request(\n           ~~~~~~~~~~~~~^\n      ChatResponse,\n      ^^^^^^^^^^^^^\n    ...<14 lines>...\n      stream=stream,\n      ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/.venv/lib/python3.13/site-packages/ollama/_client.py\", line 199, in _request\n    return cls(**self._request_raw(*args, **kwargs).json())\n                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/home/phuc/Python_Projects/billboard_info_extraction/.venv/lib/python3.13/site-packages/ollama/_client.py\", line 145, in _request_raw\n    raise ConnectionError(CONNECTION_ERROR_MESSAGE) from None\nConnectionError: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download\n"
+}
