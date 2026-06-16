@@ -1,7 +1,18 @@
-output/.paddx_cache/*
-output/.tmp
+# Cache and temporary runtime outputs
+output/.paddx_cache/
+output/.tmp/
+.paddx_cache/
 
-.idea
-__pycache__/*
+# Python compiled files (matches anywhere in the project)
+__pycache__/
+*.py[cod]
+*$py.class
 
-src/__pycache__/*
+# IDE configurations
+.idea/
+.vscode/
+
+# Local Environment / Dependencies (just in case)
+.venv/
+env/
+venv/
