@@ -13,7 +13,7 @@ from .models import ShopInfo
 
 logger = logging.getLogger(__name__)
 
-VLM_MODEL = "qwen3.5:9b"
+VLM_MODEL = "gemma4:latest"
 
 INFO_FIELDS = ["shop_name", "address", "phone_number", "website_links", "open_hours"]
 
@@ -79,6 +79,9 @@ SEARCH_EXTRACTION_PROMPT_TEMPLATE = """
 Use the web search results to fill missing business information.
 
 Only extract these missing fields: {missing_fields}.
+
+Use only the selected search results below. Do not infer fields from unrelated results,
+generic directory pages, or information outside the provided results.
 
 Return valid JSON only with keys for the requested fields.
 Expected value types:

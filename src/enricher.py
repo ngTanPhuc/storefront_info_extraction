@@ -26,7 +26,11 @@ class ShopInfoEnricher:
             shop_info.source_image,
             ", ".join(missing_fields),
         )
-        results = self.searcher.search(shop_info.shop_name, shop_info.address)
+        results = self.searcher.search(
+            shop_info.shop_name,
+            shop_info.address,
+            missing_fields=set(missing_fields),
+        )
         shop_info.search_results = results
         shop_info.search_queries = list(self.searcher.last_queries)
         if not results:
